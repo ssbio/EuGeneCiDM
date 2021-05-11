@@ -1,0 +1,12 @@
+/
+
+/*Cu Cd ligands present condition*/
+'Cu'.'Cd'.'GFP' 1
+'Cd'.'Cu'.'GFP' 1
+
+/*Cu ligands present condition*/
+
+/*Cd ligands present condition*/
+
+/*none ligands present condition*/
+/

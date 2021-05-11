@@ -1,0 +1,38 @@
+GENETIC CIRCUIT DESIGNS FOR EACH SOLUTION
+
+
+
+Solution Number: 0
+Objective Value:        -3.00
+Circuit Size:         1.00
+model status: 	        1.00
+solver status: 	        1.00
+time to solution: 	19.46900021 second
+
+Designed Genetic Circuit:
+Promoter						Transcript						Terminator
+--------------------------------------------------------------------------
+P_FRD3                        	gene_GFP                      	CaMV25St
+
+
+
+No remaining solutions found for circuit size:         1.00
+Model Status:        10.00
+Solver Status:         1.00
+Time to Determine: 	7.76600030 second
+
+
+
+
+Solution Number: 1
+Objective Value:        -3.00
+Circuit Size:         2.00
+model status: 	        8.00
+solver status: 	        8.00
+time to solution: 	17.09100001 second
+
+Designed Genetic Circuit:
+Promoter						Transcript						Terminator
+--------------------------------------------------------------------------
+P_FRO2                        	gene_E                        	CaMV25St
+P_E                           	gene_GFP                      	CaMV25St

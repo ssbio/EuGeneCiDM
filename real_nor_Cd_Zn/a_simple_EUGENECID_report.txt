@@ -1,0 +1,441 @@
+SIMPLIFIED EUGENECID RESULTS AND STATE FILE
+
+
+====================================================================
+RESULTS FOR SOLUTION NUMBER 0
+====================================================================
+
+CIRCUIT DESIGN
+
+PROMOTOR					TRANSCRIPT					TERMINATOR
+P_FRD3                        gene_GFP                      CaMV25St
+
+
+RESPONDANTS TO LIGANDS
+P_FRD3                         inhibited by Cd
+P_FRD3                         inhibited by Zn
+
+
+ENZYMES ATTRIBUTION TO OTHER ENZYMES
+
+
+ligand condition: Ld: Cd                             Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: Cd                             Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: Cd                             Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: none                           Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: none                           Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   1.00
+
+
+Proteins Expressed:
+
+
+Active Proteins:
+
+
+
+
+ligand condition: Ld: none                           Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   5.00
+
+
+Proteins Expressed:
+GFP                                   1.00
+
+
+Active Proteins:
+GFP                                   1.00
+
+
+
+
+
+
+====================================================================
+RESULTS FOR SOLUTION NUMBER 1
+====================================================================
+
+CIRCUIT DESIGN
+
+PROMOTOR					TRANSCRIPT					TERMINATOR
+P_FRO2                        gene_E                        CaMV25St
+P_E                           gene_GFP                      CaMV25St
+
+
+RESPONDANTS TO LIGANDS
+P_FRO2                         activated by Cd
+P_FRO2                         activated by Zn
+
+
+ENZYMES ATTRIBUTION TO OTHER ENZYMES
+GFP                            is influenced by E
+
+
+ligand condition: Ld: Cd                             Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: Cd                             Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: Cd                             Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: Zn                             Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: none                           Ld1: Cd
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: none                           Ld1: Zn
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              0.00	        1.00	        1.00	        0.29	        0.71
+gene_E                                4.00	        1.00	        5.00	        1.46	        3.54
+
+
+Proteins Produced:
+GFP                                   1.00
+E                                     5.00
+
+
+Proteins Expressed:
+E                                     1.00
+
+
+Active Proteins:
+E                                     1.00
+
+
+
+
+ligand condition: Ld: none                           Ld1: none
+------------------------------------------------------------------------
+
+Transcripts Produced
+transcript							deliberate		leaked			produced		degraded		Phi
+gene_GFP                              4.00	        1.00	        5.00	        1.46	        3.54
+gene_E                                0.00	        1.00	        1.00	        0.29	        0.71
+
+
+Proteins Produced:
+GFP                                   5.00
+E                                     1.00
+
+
+Proteins Expressed:
+GFP                                   1.00
+
+
+Active Proteins:
+GFP                                   1.00
+
+
+
+

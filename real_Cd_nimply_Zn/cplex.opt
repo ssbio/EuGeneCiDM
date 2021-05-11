@@ -1,0 +1,66 @@
+*time limit
+reslim = 1E4
+
+*optimality criteria
+epopt = 1E-4
+optca = 1E-4
+optcr = 1E-4 
+
+*integer relaxation
+*these relaxed options increased solve time by one order of magnitude did not
+*aid in finding the solution space at size 2 for AND circuit
+epint = 1E-6
+*epint = 1E-5
+*epint = 1E-9
+
+*feasibility relaxation
+*this relaxed option increases solve time by 2 orders of magnitude'
+*does not aid in finding solution space if switched from 
+*1E-09 to 1E-06
+*eprhs = 1E-05
+eprhs = 1E-06
+*eprhs = 1E-09
+
+*allows for different optization modes
+feasopt = 0
+feasoptmode = 0
+
+*these options did not aid in finding the solution space at size 2 for AND
+*circuit
+*feasopt = 1
+*feasoptmode = 5
+feasopt = 0
+feasoptmode = 0
+
+*optimality and feasibility tolerance for simplex methods
+*these options increased solve time by two orders of magnitude
+*for size 1 and one order of magnitude for size two and did not
+*aid in finding the solution space at size 2 for AND circuit
+netepopt = 1E-06
+neteprhs = 1E-06
+*netepopt = 1E-4
+*neteprhs = 1E-4
+
+*allow small infeasibilities in the solve of the fixed problem
+*Switching to value of 1 increases solve time does not aid in finding
+*the solution space
+*relaxfixedinfeas = 1
+relaxfixedinfeas = 0
+
+*trying extending probing of variables or specific probing types
+*for presolution
+*these options increased solve time by one order of magnitude did not
+*aid in finding the solution space at size 2 for AND circuit
+*preslvnd = 3
+*probe = 3
+*probtime=1E3
+
+*this option increased solve time by one order of magnitude did not
+*aid in finding the solution space at size 2 for AND circuit
+*mipemphasis = 3
+
+*this didn't help on its own
+*numericalemphasis = 1
+numericalemphasis = 0
+
+*trying to use all the relaxations but far too slow to even solve size 1

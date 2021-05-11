@@ -1,0 +1,8 @@
+/
+'mKO'
+'GFP'
+'TagBFP'
+'AraC'
+'tetR'
+'cI'
+/

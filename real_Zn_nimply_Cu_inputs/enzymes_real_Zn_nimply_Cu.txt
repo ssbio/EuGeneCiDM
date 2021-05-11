@@ -1,7 +1,0 @@
-/
-'mKO'
-'GFP'
-'AraC'
-'tetR'
-'cI'
-/

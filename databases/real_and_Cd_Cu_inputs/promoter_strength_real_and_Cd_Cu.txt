@@ -1,0 +1,22 @@
+/
+'P_CaMV35S' 15
+'P_CdI3' 3
+'P_CAO' 3
+'P_EXO70B1_11' 4
+'P_IRT1' 5
+'P_ZIP5' 5
+'P_CdI10' 4
+'P_GSTF1' 3
+'P_GT' 4
+'P_FRO2' 4
+'P_RSU1' 4
+'P_FRD3' 4
+'P_HYP1' 3
+'P_ZIP4' 4
+'P_ZIP2' 4
+'P_lambda' 4
+'P_RM' 5
+'P_ara' 4
+'P_tet' 4
+'P_ara2' 4
+/

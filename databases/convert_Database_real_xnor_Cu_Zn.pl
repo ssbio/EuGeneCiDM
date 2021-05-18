@@ -83,7 +83,7 @@ my $data_book = Spreadsheet::Read->new('database_'.$gate.'.xlsx');
 
 #read the worksheets
 #note: sheet names are case-sensitive
-my $pro_sheet = $data_book->sheet("Promotors");				#"Promotors"
+my $pro_sheet = $data_book->sheet("Promoters");				#"Promoters"
 my $trans_sheet = $data_book->sheet("Transcripts");			#"Transcripts"
 my $term_sheet = $data_book->sheet("Terminators");			#"Terminators"
 my $enz_sheet = $data_book->sheet("Enzymes&Proteins");		#"Enzymes&Proteins"

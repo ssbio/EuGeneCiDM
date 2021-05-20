@@ -1,0 +1,50 @@
+
+Number of promotors: 20
+Number of transcripts: 5
+Number of terminators: 3
+Number of enzymes: 5
+Number of ligands: 3
+
+row #1 present ligands: Cd Zn 
+enzyme response: GFP 
+condition string: 'Cd'.'Zn'.'GFP' 1
+found 'Cd'
+found 'Zn'
+condition string: 'Zn'.'Cd'.'GFP' 1
+found 'Cd'
+found 'Zn'
+
+row #2 present ligands: Cd 
+enzyme response: GFP 
+condition string: 'Cd'.'Cd'.'GFP' 1
+found 'Cd'
+condition string: 'Cd'.'none'.'GFP' 1
+found 'Cd'
+condition string: 'Cd'.'Cd'.'GFP' 1
+found 'Cd'
+condition string: 'Cd'.'none'.'GFP' 1
+found 'Cd'
+condition string: 'none'.'Cd'.'GFP' 1
+found 'Cd'
+condition string: 'none'.'Cd'.'GFP' 1
+found 'Cd'
+
+row #3 present ligands: Zn 
+enzyme response: GFP 
+condition string: 'Zn'.'Zn'.'GFP' 1
+found 'Zn'
+condition string: 'Zn'.'none'.'GFP' 1
+found 'Zn'
+condition string: 'Zn'.'Zn'.'GFP' 1
+found 'Zn'
+condition string: 'Zn'.'none'.'GFP' 1
+found 'Zn'
+condition string: 'none'.'Zn'.'GFP' 1
+found 'Zn'
+condition string: 'none'.'Zn'.'GFP' 1
+found 'Zn'
+
+row #4 present ligands: none
+desired to have no enzyme response
+
+max time: 10

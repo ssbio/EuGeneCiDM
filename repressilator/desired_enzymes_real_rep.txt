@@ -1,5 +1,0 @@
-/
-'GFP'
-'mKO'
-'TagBFP'
-/

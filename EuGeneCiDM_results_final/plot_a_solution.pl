@@ -17,7 +17,7 @@ my $gate = "Cu_nimply_Zn";
 my $soln_num = 11;
 
 #set up to read the information
-open(STATEDATA, 'circuit_state_real_'.$gate.'.csv') or die "Could not open input file, reason: $!\n";
+open(STATEDATA, 'circuit_state_'.$gate.'.csv') or die "Could not open input file, reason: $!\n";
 
 #create a multi-dimensional hash to store treanscript and enzymes levels
 #and for transcript and enzyme production

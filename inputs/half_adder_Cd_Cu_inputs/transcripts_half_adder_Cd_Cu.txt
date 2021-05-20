@@ -1,0 +1,8 @@
+/
+'gene_mKO'
+'gene_GFP'
+'gene_TagBFP'
+'gene_AraC'
+'gene_tetR'
+'gene_cI'
+/

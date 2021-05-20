@@ -1,5 +1,0 @@
-/
-'NOSt' 1
-'CaMV25St' 2
-'HSPt' 3
-/

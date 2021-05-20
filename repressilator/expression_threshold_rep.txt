@@ -1,0 +1,8 @@
+/
+'mKO' 5
+'GFP' 5
+'TagBFP' 5
+'AraC' 5
+'tetR' 5
+'cI' 5
+/

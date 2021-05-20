@@ -1,7 +1,0 @@
-/
-'gene_mKO'.'mKO' 1
-'gene_GFP'.'GFP' 1
-'gene_AraC'.'AraC' 1
-'gene_tetR'.'tetR' 1
-'gene_cI'.'cI' 1
-/

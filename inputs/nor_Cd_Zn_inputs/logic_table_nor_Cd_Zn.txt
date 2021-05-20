@@ -1,0 +1,11 @@
+/
+
+/*Cd Zn ligands present condition*/
+
+/*Cd ligands present condition*/
+
+/*Zn ligands present condition*/
+
+/*none ligands present condition*/
+'none'.'none'.'GFP' 1
+/

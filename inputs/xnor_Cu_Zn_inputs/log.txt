@@ -1,0 +1,30 @@
+
+Number of promotors: 20
+Number of transcripts: 5
+Number of terminators: 3
+Number of enzymes: 5
+Number of ligands: 3
+
+row #1 present ligands: Cu Zn 
+enzyme response: GFP 
+condition string: 'Cu'.'Zn'.'GFP' 1
+found 'Cu'
+found 'Zn'
+condition string: 'Zn'.'Cu'.'GFP' 1
+found 'Cu'
+found 'Zn'
+
+row #2 present ligands: Cu 
+desired to have no enzyme response
+
+row #3 present ligands: Zn 
+desired to have no enzyme response
+
+row #4 present ligands: none
+enzyme response: GFP 
+condition string: 'none'.'none'.'GFP' 1
+found 'none'
+condition string: 'none'.'none'.'GFP' 1
+found 'none'
+
+max time: 10

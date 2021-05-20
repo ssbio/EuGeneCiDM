@@ -14,7 +14,7 @@ my $gate = "half_adder_Cd_Cu";
 printf "\nresult for gate: %s\n", $gate;
 
 #we are going to read the file first
-open(HUMANFILE, "<circuit_designs_file_real_".$gate.".txt") or die "Could not open the human-readable file, reason: $!\n";
+open(HUMANFILE, "<circuit_designs_file_".$gate.".txt") or die "Could not open the human-readable file, reason: $!\n";
 chomp(my @text_lines = <HUMANFILE>);
 
 my $text = join "\n", @text_lines;
@@ -32,8 +32,6 @@ shift @solns;
 #1. Identify if it is a solution or just a note that there is no more solutions of that size.
 #
 #2. IF a solution get the objective value, size, status, time, and parts
-#
-#3. With the parts sort if using real or custom parts
 #
 #Things to track:
 #	1. number of solutions of a particular size (hash %size_tallies)
@@ -78,9 +76,6 @@ my $min_obj_soln = 0;
 #  14. store part tallies where the key is the part name (hash %part_tallies)
 my %part_tallies = ( );
 
-#  15. Store tally of solutions using artificial parts (number of custom parts)
-my @num_cust = ( );
-
 #  16. Set of solution numbers
 my @soln_num = ( ); 
 
@@ -89,12 +84,6 @@ my %soln_size = ( );
 
 #  18. Solution design
 my %soln_design = ( );
-
-#  19. store the number of design solutions with one or more custom genes
-my $num_cust_solns = 0; 
-
-#  20. number of design solutions with 2 or more custom genes
-my $two_plus_cust = 0;
 
 #  21. if a fatal error had occured
 my $fatal_error = "no";

@@ -1,7 +1,7 @@
 #usr/bin/perl -w
 
 #Written by: Wheaton Schroeder
-#Latest version: 01/14/2020
+#Latest version: 05/21/2020
 
 #Written to convert the Microsoft Excel version
 #of the database for EuGeneCiD/S to the requisite
@@ -11,7 +11,7 @@ use strict;
 use Spreadsheet::Read qw(ReadData);
 use Algorithm::Combinatorics qw(variations);
 
-my $gate = "Zn_nimply_Cu";
+my $gate = "Zn_niply_Cu";
 
 #create a file to write the output to
 #create a directory for all of the output files, if it doesn't already exist
@@ -30,7 +30,7 @@ open(LOG, ">".$directory."/log.txt") or die "could not write to or create log fi
 select LOG;
 
 #create arrays for all the set files
-my @pro = ( );				#will be the identifier of the promotor 
+my @pro = ( );				#will be the identifier of the promoter 
 my @tran = ( );				#will be the transcript identifier
 my @term = ( );				#will be the terminator identifer
 my @enz = ( );				#will be the enzyme indentifier
@@ -40,15 +40,15 @@ my @des_enz = ( ); 			#desired enzymes, those enzymes that are used in the logic
 my @all = ( );				#basically set of all molecules in the system used to identify self-self iteractions
 
 #create hashes for all the requisite output files
-#promotor-related parameters
-my %pro_name = ( );			#promotor name
-my %pro_state = ( );		#promotor normal state
-my %pro_str = ( );			#promotor strength
-my %pro_leak = ( );			#promotor leakiness
-my %pro_ind = ( );			#promotor inducers
-my %pro_ind_str = ( );		#promotor inducer strength 2-d hash
-my %pro_rep = ( );			#promotor repressors
-my %pro_rep_str = ( );		#promotor repressors strength 2-d hash
+#promoter-related parameters
+my %pro_name = ( );			#promoter name
+my %pro_state = ( );		#promoter normal state
+my %pro_str = ( );			#promoter strength
+my %pro_leak = ( );			#promoter leakiness
+my %pro_ind = ( );			#promoter inducers
+my %pro_ind_str = ( );		#promoter inducer strength 2-d hash
+my %pro_rep = ( );			#promoter repressors
+my %pro_rep_str = ( );		#promoter repressors strength 2-d hash
 
 #transcript-related parameters
 my %tran_name = ( );		#transcript names
@@ -64,10 +64,10 @@ my %enz_name = ( );			#enzyme name
 my %enz_state = ( );		#enzyme normal state
 my %enz_thresh = ( );		#enzyme concentration threshold for activity
 my %enz_half = ( );			#enzyme half-life
-my %enz_ind = ( );			#promotor inducers
-my %enz_ind_str = ( );		#promotor inducer strength 2-d hash
-my %enz_rep = ( );			#promotor repressors
-my %enz_rep_str = ( );		#promotor repressors strength 2-d hash
+my %enz_ind = ( );			#promoter inducers
+my %enz_ind_str = ( );		#promoter inducer strength 2-d hash
+my %enz_rep = ( );			#promoter repressors
+my %enz_rep_str = ( );		#promoter repressors strength 2-d hash
 
 #ligand-associated names
 my %lig_names = ( );		#ligand names
@@ -91,12 +91,12 @@ my $lig_sheet = $data_book->sheet("Ligands");				#"Ligands"
 my $log_sheet = $data_book->sheet("LogicTable");			#"LogicTable"
 my $other_sheet = $data_book->sheet("Other");				#"other"
 
-#read the data from the promotors sheet
+#read the data from the promoters sheet
 
 #read by row, get the largest number of rows
 my $pro_row_num = $pro_sheet->maxrow;
 
-printf "\nNumber of promotors: %s\n",($pro_row_num-1);
+printf "\nNumber of promoters: %s\n",($pro_row_num-1);
 
 #note, will be skipping the first row since that is just labels
 #start with 2 bacause the indexing is 1-based 
@@ -199,7 +199,30 @@ for(my $d = 2; $d <= $tran_row_num; $d++) {
 	
 	$tran_name{$ident} = $name;
 	$tran_eff{$ident} = $eff;
-	$tran_enz{$ident}{$encoded} = 1;
+	
+	#deal with potential multiple enzymes being encoded
+	#a semicolon will be used to separate multiple enzyme identifiers
+	if($encoded =~ /;/) {
+	
+		my @encoded_enzs = split /;/, $encoded;
+		
+		for(my $ab = 0; $ab <= $#encoded_enzs; $ab++) {
+			
+			#remove spaces that might be present
+			$encoded_enzs[$ab] =~ s/^\s+//g;
+			$encoded_enzs[$ab] =~ s/\s+$//g;
+			
+			#establish the link between transcript and enzyme
+			$tran_enz{$ident}{$encoded_enzs[$ab]} = 1;
+			
+		}
+	
+	} else {
+	
+		#if here only one enzyme encoded
+		$tran_enz{$ident}{$encoded} = 1;
+	
+	}
 	
 }
 
@@ -637,7 +660,7 @@ printf SET_J "\/";
 printf PARAM_RHO "\/";
 printf PARAM_ETA "\/";
 
-#write promotor-based files
+#write promoter-based files
 open(SET_P, ">".$directory."/promoters_".$gate.".txt") or die "Could not write/create the file for set P, reason: $!\n";
 open(PARAM_S, ">".$directory."/promoter_strength_".$gate.".txt") or die "Could not write/create the file for parameter S, reason: $!\n";
 open(PARAM_Z, ">".$directory."/promoter_normal_state_".$gate.".txt") or die "Could not write/create the file for parameter Z, reason: $!\n";
@@ -659,7 +682,7 @@ for(my $r = 0; $r <= $#pro; $r++) {
 	printf PARAM_Z "\'".$pro[$r]."\' ".$pro_state{$pro[$r]}."\n";
 	printf PARAM_F "\'".$pro[$r]."\' ".$pro_leak{$pro[$r]}."\n";
 	
-	#get the array of inducers for this promotor
+	#get the array of inducers for this promoter
 	my $ind_handle = $pro_ind{$pro[$r]};
 	
 	#turn the array handle back into an array
@@ -675,7 +698,7 @@ for(my $r = 0; $r <= $#pro; $r++) {
 		
 	}
 	
-	#get the array of repressors for this promotor
+	#get the array of repressors for this promoter
 	my $rep_handle = $pro_rep{$pro[$r]};
 	
 	#turn the array handle back into an array
@@ -769,7 +792,7 @@ for(my $x = 0; $x <= $#enz; $x++) {
 	printf PARAM_TAU "\'".$enz[$x]."\' ".$enz_half{$enz[$x]}."\n";
 	printf PARAM_THETA "\'".$enz[$x]."\' ".$enz_thresh{$enz[$x]}."\n";
 	
-	#get the array of inducers for this promotor
+	#get the array of inducers for this promoter
 	my $ind_handle = $enz_ind{$enz[$x]};
 	
 	#turn the array handle back into an array
@@ -785,7 +808,7 @@ for(my $x = 0; $x <= $#enz; $x++) {
 		
 	}
 	
-	#get the array of repressors for this promotor
+	#get the array of repressors for this promoter
 	my $rep_handle = $enz_rep{$enz[$x]};
 	
 	#turn the array handle back into an array

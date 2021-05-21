@@ -1,7 +1,7 @@
 #usr/bin/perl -w
 
 #Written by: Wheaton Schroeder
-#Latest version: 01/14/2020
+#Latest version: 05/21/2020
 
 #Written to convert the Microsoft Excel version
 #of the database for EuGeneCiD/S to the requisite
@@ -11,7 +11,7 @@ use strict;
 use Spreadsheet::Read qw(ReadData);
 use Algorithm::Combinatorics qw(variations);
 
-my $gate = "xnor_Cu_Zn";
+my $gate = "xor_Cu_Zn";
 
 #create a file to write the output to
 #create a directory for all of the output files, if it doesn't already exist
@@ -199,7 +199,30 @@ for(my $d = 2; $d <= $tran_row_num; $d++) {
 	
 	$tran_name{$ident} = $name;
 	$tran_eff{$ident} = $eff;
-	$tran_enz{$ident}{$encoded} = 1;
+	
+	#deal with potential multiple enzymes being encoded
+	#a semicolon will be used to separate multiple enzyme identifiers
+	if($encoded =~ /;/) {
+	
+		my @encoded_enzs = split /;/, $encoded;
+		
+		for(my $ab = 0; $ab <= $#encoded_enzs; $ab++) {
+			
+			#remove spaces that might be present
+			$encoded_enzs[$ab] =~ s/^\s+//g;
+			$encoded_enzs[$ab] =~ s/\s+$//g;
+			
+			#establish the link between transcript and enzyme
+			$tran_enz{$ident}{$encoded_enzs[$ab]} = 1;
+			
+		}
+	
+	} else {
+	
+		#if here only one enzyme encoded
+		$tran_enz{$ident}{$encoded} = 1;
+	
+	}
 	
 }
 

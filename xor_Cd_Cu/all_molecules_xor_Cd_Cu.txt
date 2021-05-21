@@ -26,7 +26,7 @@
 'gene_tetR'
 'gene_cI'
 'NOSt'
-'CaMV25St'
+'CaMV35St'
 'HSPt'
 'mKO'
 'GFP'

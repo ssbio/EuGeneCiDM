@@ -41,7 +41,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -55,7 +55,7 @@ time to solution: 	30.48400031 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	HSPt
@@ -87,7 +87,7 @@ time to solution: 	38.20600002 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_cI                       	HSPt
 P_GT                          	gene_cI                       	HSPt
 P_lambda                      	gene_GFP                      	HSPt
@@ -103,7 +103,7 @@ time to solution: 	25.10899992 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_EXO70B1_11                  	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
 P_lambda                      	gene_GFP                      	HSPt
@@ -121,7 +121,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 
 
@@ -136,7 +136,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_tet                         	gene_GFP                      	NOSt
 
@@ -151,7 +151,7 @@ time to solution: 	26.58400009 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_cI                       	HSPt
 P_lambda                      	gene_GFP                      	NOSt
@@ -167,7 +167,7 @@ time to solution: 	33.82600027 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -185,7 +185,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -263,7 +263,7 @@ time to solution: 	28.74800025 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_AraC                     	CaMV25St
+P_CdI3                        	gene_AraC                     	CaMV35St
 P_EXO70B1_11                  	gene_AraC                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_ara                         	gene_GFP                      	NOSt
@@ -295,7 +295,7 @@ time to solution: 	30.65799982 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -371,7 +371,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -408,7 +408,7 @@ P_CdI10                       	gene_cI                       	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
 P_FRO2                        	gene_AraC                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 23
@@ -455,7 +455,7 @@ time to solution: 	126.62599983 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -489,7 +489,7 @@ time to solution: 	154.67099959 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -540,11 +540,11 @@ time to solution: 	297.96100014 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 31
@@ -560,8 +560,8 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_FRD3                        	gene_AraC                     	CaMV25St
-P_ara                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 32
@@ -575,10 +575,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 33
@@ -594,8 +594,8 @@ Promoter						Transcript						Terminator
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 34
@@ -610,9 +610,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_FRD3                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 35
@@ -626,10 +626,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
-P_GT                          	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
+P_GT                          	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 36
@@ -646,7 +646,7 @@ P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 37
@@ -663,7 +663,7 @@ P_CAO                         	gene_AraC                     	HSPt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 38
@@ -676,11 +676,11 @@ time to solution: 	310.57999979 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_AraC                     	CaMV25St
+P_CAO                         	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 39
@@ -693,11 +693,11 @@ time to solution: 	234.00799949 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 40
@@ -713,8 +713,8 @@ Promoter						Transcript						Terminator
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 41
@@ -731,7 +731,7 @@ P_CAO                         	gene_tetR                     	HSPt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 42
@@ -744,11 +744,11 @@ time to solution: 	436.22699983 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 43
@@ -764,8 +764,8 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_AraC                     	CaMV25St
-P_ara                         	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_AraC                     	CaMV35St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 44
@@ -779,10 +779,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_AraC                     	CaMV25St
-P_ara                         	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_AraC                     	CaMV35St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 45
@@ -795,11 +795,11 @@ time to solution: 	176.15299998 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 46
@@ -812,11 +812,11 @@ time to solution: 	126.94900024 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRD3                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 47
@@ -829,11 +829,11 @@ time to solution: 	128.47000009 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
 P_HYP1                        	gene_tetR                     	HSPt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 48
@@ -846,11 +846,11 @@ time to solution: 	394.51400000 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 49
@@ -865,9 +865,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 50
@@ -884,7 +884,7 @@ P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
 P_HYP1                        	gene_tetR                     	HSPt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 51
@@ -899,9 +899,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 52
@@ -916,9 +916,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 53
@@ -934,8 +934,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 54
@@ -951,8 +951,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 55
@@ -969,7 +969,7 @@ P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 56
@@ -985,8 +985,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 57
@@ -1000,10 +1000,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_AraC                     	HSPt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 58
@@ -1018,9 +1018,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 59
@@ -1034,10 +1034,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GT                          	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 60
@@ -1053,8 +1053,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_AraC                     	CaMV25St
-P_ara                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 61
@@ -1071,7 +1071,7 @@ P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 62
@@ -1088,7 +1088,7 @@ P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_tetR                     	HSPt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 63
@@ -1102,10 +1102,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 64
@@ -1121,8 +1121,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
-P_FRD3                        	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 65
@@ -1138,8 +1138,8 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_tetR                     	HSPt
-P_GT                          	gene_tetR                     	CaMV25St
-P_tet                         	gene_GFP                      	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 66
@@ -1153,10 +1153,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_AraC                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 67
@@ -1172,8 +1172,8 @@ Promoter						Transcript						Terminator
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_AraC                     	CaMV25St
-P_ara                         	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_AraC                     	CaMV35St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 68
@@ -1188,9 +1188,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 69
@@ -1207,7 +1207,7 @@ P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_AraC                     	HSPt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 70
@@ -1224,7 +1224,7 @@ P_CAO                         	gene_GFP                      	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_HYP1                        	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 71
@@ -1241,7 +1241,7 @@ P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
 P_HYP1                        	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 72
@@ -1255,10 +1255,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_tetR                     	HSPt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 73
@@ -1272,10 +1272,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
 P_HYP1                        	gene_tetR                     	HSPt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 74
@@ -1288,11 +1288,11 @@ time to solution: 	106.34900008 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
-P_tet                         	gene_GFP                      	CaMV25St
+P_tet                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 75
@@ -1309,7 +1309,7 @@ P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 76
@@ -1323,10 +1323,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_AraC                     	HSPt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 77
@@ -1339,11 +1339,11 @@ time to solution: 	241.84900001 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_AraC                     	CaMV25St
+P_CAO                         	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
-P_ara                         	gene_GFP                      	CaMV25St
+P_ara                         	gene_GFP                      	CaMV35St
 
 
 Solution Number: 78
@@ -1376,7 +1376,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_cI                       	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
 P_GT                          	gene_cI                       	HSPt
-P_RM                          	gene_AraC                     	CaMV25St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -1392,8 +1392,8 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
-P_tet                         	gene_AraC                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
+P_tet                         	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	HSPt
 
 
@@ -1407,7 +1407,7 @@ time to solution: 	1042.42299953 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_FRO2                        	gene_cI                       	NOSt
 P_RM                          	gene_tetR                     	HSPt
@@ -1425,9 +1425,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
-P_lambda                      	gene_AraC                     	CaMV25St
+P_lambda                      	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	HSPt
 
 
@@ -1444,7 +1444,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_GT                          	gene_AraC                     	HSPt
 P_FRO2                        	gene_cI                       	HSPt
-P_RM                          	gene_AraC                     	CaMV25St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -1460,7 +1460,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
 P_EXO70B1_11                  	gene_cI                       	HSPt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_RM                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -1475,7 +1475,7 @@ time to solution: 	618.66199966 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_CdI10                       	gene_AraC                     	HSPt
 P_GSTF1                       	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	HSPt
@@ -1492,10 +1492,10 @@ time to solution: 	347.72099981 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_cI                       	NOSt
-P_lambda                      	gene_AraC                     	CaMV25St
+P_lambda                      	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	HSPt
 
 
@@ -1513,7 +1513,7 @@ P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
 P_GT                          	gene_tetR                     	HSPt
 P_tet                         	gene_GFP                      	HSPt
-P_ara2                        	gene_tetR                     	CaMV25St
+P_ara2                        	gene_tetR                     	CaMV35St
 
 
 Solution Number: 88
@@ -1529,7 +1529,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_GT                          	gene_tetR                     	HSPt
 P_FRO2                        	gene_cI                       	HSPt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -1562,8 +1562,8 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
-P_RM                          	gene_tetR                     	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -1578,9 +1578,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_GT                          	gene_AraC                     	CaMV25St
-P_RM                          	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_GT                          	gene_AraC                     	CaMV35St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -1595,7 +1595,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_lambda                      	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	HSPt
@@ -1612,7 +1612,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_AraC                     	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_FRO2                        	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -1663,7 +1663,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_RM                          	gene_tetR                     	HSPt
 P_tet                         	gene_GFP                      	HSPt
@@ -1681,7 +1681,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
 P_EXO70B1_11                  	gene_AraC                     	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 P_ara2                        	gene_tetR                     	HSPt
 
@@ -1697,7 +1697,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_tetR                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
@@ -1782,7 +1782,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_AraC                     	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_tet                         	gene_AraC                     	NOSt
 P_ara2                        	gene_GFP                      	HSPt
@@ -1817,7 +1817,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_AraC                     	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 P_ara2                        	gene_cI                       	HSPt
 
@@ -1832,7 +1832,7 @@ time to solution: 	579.88600046 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_AraC                     	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
 P_tet                         	gene_AraC                     	NOSt
@@ -1849,10 +1849,10 @@ time to solution: 	448.04899993 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_cI                       	NOSt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -1868,7 +1868,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	HSPt
 
@@ -1921,7 +1921,7 @@ P_CdI3                        	gene_cI                       	NOSt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_GT                          	gene_cI                       	HSPt
 P_lambda                      	gene_GFP                      	HSPt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 112
@@ -1935,7 +1935,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_RM                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -1952,7 +1952,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_FRO2                        	gene_cI                       	HSPt
 P_RM                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -1986,8 +1986,8 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_cI                       	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
-P_FRO2                        	gene_cI                       	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 P_ara2                        	gene_cI                       	HSPt
 
@@ -2004,7 +2004,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_tetR                     	HSPt
 P_GSTF1                       	gene_cI                       	NOSt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
 
@@ -2021,9 +2021,9 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
-P_FRD3                        	gene_AraC                     	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 118
@@ -2036,10 +2036,10 @@ time to solution: 	347.44099982 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_cI                       	NOSt
-P_RM                          	gene_AraC                     	CaMV25St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -2056,7 +2056,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_cI                       	NOSt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_GT                          	gene_tetR                     	HSPt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -2070,7 +2070,7 @@ time to solution: 	563.56599997 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
@@ -2089,7 +2089,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_RM                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -2138,7 +2138,7 @@ time to solution: 	723.62599983 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
@@ -2159,7 +2159,7 @@ P_GSTF1                       	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 126
@@ -2206,9 +2206,9 @@ time to solution: 	233.69600032 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_cI                       	HSPt
-P_FRD3                        	gene_AraC                     	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
 
@@ -2224,7 +2224,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
 P_ara2                        	gene_cI                       	HSPt
@@ -2244,7 +2244,7 @@ P_EXO70B1_11                  	gene_cI                       	NOSt
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 131
@@ -2258,7 +2258,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -2278,7 +2278,7 @@ P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_GT                          	gene_cI                       	HSPt
 P_FRO2                        	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	HSPt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 133
@@ -2291,7 +2291,7 @@ time to solution: 	401.98800014 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_tetR                     	HSPt
 P_FRO2                        	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	HSPt
@@ -2310,7 +2310,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_cI                       	NOSt
 P_CdI10                       	gene_AraC                     	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -2376,8 +2376,8 @@ time to solution: 	382.15399990 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_tetR                     	CaMV25St
-P_GT                          	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
+P_GT                          	gene_AraC                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_ara                         	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -2393,7 +2393,7 @@ time to solution: 	579.99999980 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_CdI10                       	gene_AraC                     	HSPt
 P_tet                         	gene_GFP                      	NOSt
@@ -2445,7 +2445,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_AraC                     	NOSt
 P_ara                         	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -2462,8 +2462,8 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_cI                       	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
-P_FRO2                        	gene_cI                       	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
+P_FRO2                        	gene_cI                       	CaMV35St
 P_lambda                      	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
 
@@ -2496,7 +2496,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -2513,7 +2513,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_AraC                     	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_AraC                     	NOSt
 P_ara                         	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
@@ -2531,7 +2531,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
 P_EXO70B1_11                  	gene_cI                       	HSPt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_lambda                      	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
 
@@ -2565,7 +2565,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	HSPt
 P_GSTF1                       	gene_cI                       	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_lambda                      	gene_GFP                      	NOSt
 P_ara                         	gene_GFP                      	NOSt
 
@@ -2631,7 +2631,7 @@ time to solution: 	558.60700014 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_cI                       	HSPt
 P_GT                          	gene_tetR                     	HSPt
 P_lambda                      	gene_GFP                      	NOSt
@@ -2682,7 +2682,7 @@ time to solution: 	212.90100021 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	NOSt
@@ -2716,8 +2716,8 @@ time to solution: 	351.29999996 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_GT                          	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_GT                          	gene_AraC                     	CaMV35St
 P_FRO2                        	gene_cI                       	NOSt
 P_lambda                      	gene_GFP                      	NOSt
 P_ara                         	gene_GFP                      	NOSt
@@ -2734,7 +2734,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	NOSt
 P_ara2                        	gene_tetR                     	NOSt
@@ -2769,7 +2769,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_tet                         	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	NOSt
 
@@ -2786,7 +2786,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
-P_FRO2                        	gene_AraC                     	CaMV25St
+P_FRO2                        	gene_AraC                     	CaMV35St
 P_lambda                      	gene_GFP                      	NOSt
 P_ara2                        	gene_cI                       	HSPt
 
@@ -2801,7 +2801,7 @@ time to solution: 	1070.35399997 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_tet                         	gene_AraC                     	HSPt
@@ -2818,7 +2818,7 @@ time to solution: 	991.90100001 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_cI                       	HSPt
 P_RM                          	gene_AraC                     	HSPt
@@ -2871,8 +2871,8 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
-P_FRO2                        	gene_cI                       	CaMV25St
-P_RM                          	gene_AraC                     	CaMV25St
+P_FRO2                        	gene_cI                       	CaMV35St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -2903,9 +2903,9 @@ time to solution: 	598.84999939 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_AraC                     	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
 P_tet                         	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	NOSt
 
@@ -2921,7 +2921,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_AraC                     	HSPt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_tet                         	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	NOSt
@@ -2940,7 +2940,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -2972,10 +2972,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRO2                        	gene_AraC                     	NOSt
 P_tet                         	gene_GFP                      	NOSt
-P_ara2                        	gene_tetR                     	CaMV25St
+P_ara2                        	gene_tetR                     	CaMV35St
 
 
 Solution Number: 174
@@ -2989,7 +2989,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_lambda                      	gene_GFP                      	NOSt
 P_ara2                        	gene_cI                       	HSPt
@@ -3005,11 +3005,11 @@ time to solution: 	680.69099961 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_AraC                     	CaMV25St
+P_CdI3                        	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
 P_tet                         	gene_GFP                      	NOSt
-P_ara2                        	gene_tetR                     	CaMV25St
+P_ara2                        	gene_tetR                     	CaMV35St
 
 
 Solution Number: 176
@@ -3040,9 +3040,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
-P_tet                         	gene_AraC                     	CaMV25St
+P_tet                         	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	NOSt
 
 
@@ -3060,7 +3060,7 @@ P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_cI                       	HSPt
 P_lambda                      	gene_GFP                      	NOSt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 179
@@ -3110,7 +3110,7 @@ Promoter						Transcript						Terminator
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
 P_FRO2                        	gene_cI                       	HSPt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -3127,7 +3127,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_tetR                     	NOSt
-P_tet                         	gene_AraC                     	CaMV25St
+P_tet                         	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	NOSt
 
 
@@ -3141,10 +3141,10 @@ time to solution: 	466.28799965 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_cI                       	CaMV25St
+P_CdI3                        	gene_cI                       	CaMV35St
 P_EXO70B1_11                  	gene_cI                       	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
-P_RM                          	gene_AraC                     	CaMV25St
+P_RM                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -3159,7 +3159,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_AraC                     	HSPt
 P_tet                         	gene_GFP                      	NOSt
 P_ara2                        	gene_tetR                     	NOSt
@@ -3175,7 +3175,7 @@ time to solution: 	327.94099997 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
 P_lambda                      	gene_GFP                      	NOSt
@@ -3193,7 +3193,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_tetR                     	HSPt
 P_ara                         	gene_GFP                      	NOSt
 P_tet                         	gene_AraC                     	NOSt
@@ -3212,7 +3212,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
-P_lambda                      	gene_AraC                     	CaMV25St
+P_lambda                      	gene_AraC                     	CaMV35St
 P_ara2                        	gene_GFP                      	NOSt
 
 
@@ -3244,7 +3244,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_lambda                      	gene_AraC                     	HSPt
 P_ara2                        	gene_GFP                      	NOSt
@@ -3263,7 +3263,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_cI                       	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
-P_RM                          	gene_tetR                     	CaMV25St
+P_RM                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -3396,10 +3396,10 @@ time to solution: 	749.49400036 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3414,9 +3414,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -3433,7 +3433,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_tetR                     	HSPt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3448,7 +3448,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_AraC                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
 P_ara                         	gene_GFP                      	HSPt
@@ -3466,8 +3466,8 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
-P_GT                          	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
+P_GT                          	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -3499,9 +3499,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3517,7 +3517,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -3568,7 +3568,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -3584,9 +3584,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_CAO                         	gene_AraC                     	CaMV25St
+P_CAO                         	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_ara                         	gene_GFP                      	HSPt
 
 
@@ -3600,7 +3600,7 @@ time to solution: 	680.73599974 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_AraC                     	CaMV25St
+P_CAO                         	gene_AraC                     	CaMV35St
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_GSTF1                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_GFP                      	NOSt
@@ -3636,7 +3636,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_CAO                         	gene_tetR                     	HSPt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -3653,7 +3653,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -3669,7 +3669,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
 P_HYP1                        	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -3686,7 +3686,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -3704,8 +3704,8 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
-P_GT                          	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
+P_GT                          	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3720,9 +3720,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3737,9 +3737,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
 P_tet                         	gene_GFP                      	HSPt
 
 
@@ -3805,7 +3805,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -3821,9 +3821,9 @@ time to solution: 	630.03300014 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -3855,9 +3855,9 @@ time to solution: 	906.21800004 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_tetR                     	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -3874,7 +3874,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_GFP                      	NOSt
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_tetR                     	HSPt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -3924,7 +3924,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_HYP1                        	gene_GFP                      	NOSt
 P_tet                         	gene_GFP                      	HSPt
@@ -3949,11 +3949,11 @@ time to solution: 	6443.32900008 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_cI                       	HSPt
 
 
@@ -3967,12 +3967,12 @@ time to solution: 	1575.62599971 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_cI                       	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 232
@@ -3989,8 +3989,8 @@ P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 233
@@ -4003,11 +4003,11 @@ time to solution: 	1677.84299960 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRO2                        	gene_cI                       	HSPt
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_cI                       	HSPt
 
 
@@ -4021,11 +4021,11 @@ time to solution: 	1567.27500020 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4042,7 +4042,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 P_ara2                        	gene_cI                       	HSPt
 
@@ -4058,11 +4058,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 237
@@ -4078,9 +4078,9 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 238
@@ -4093,11 +4093,11 @@ time to solution: 	3861.22300015 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	NOSt
-P_HYP1                        	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_HYP1                        	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4115,8 +4115,8 @@ P_CdI3                        	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 240
@@ -4129,11 +4129,11 @@ time to solution: 	1405.19699994 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_cI                       	CaMV25St
+P_CAO                         	gene_cI                       	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4150,8 +4150,8 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	NOSt
-P_FRD3                        	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4169,7 +4169,7 @@ P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	HSPt
 P_HYP1                        	gene_cI                       	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4187,8 +4187,8 @@ P_CdI3                        	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_FRD3                        	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
-P_ara                         	gene_cI                       	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 244
@@ -4205,7 +4205,7 @@ P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4219,11 +4219,11 @@ time to solution: 	1331.62999994 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4240,8 +4240,8 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
-P_FRD3                        	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4256,10 +4256,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	HSPt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4273,11 +4273,11 @@ time to solution: 	3508.60599994 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_EXO70B1_11                  	gene_cI                       	NOSt
 P_CdI10                       	gene_GFP                      	NOSt
 P_HYP1                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4291,11 +4291,11 @@ time to solution: 	1735.37699967 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_HYP1                        	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_HYP1                        	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4313,7 +4313,7 @@ P_CAO                         	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4328,10 +4328,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	HSPt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_CdI10                       	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4348,8 +4348,8 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
-P_RM                          	gene_GFP                      	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4367,7 +4367,7 @@ P_CAO                         	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4381,11 +4381,11 @@ time to solution: 	3488.07500023 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
 P_FRD3                        	gene_cI                       	HSPt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4399,11 +4399,11 @@ time to solution: 	8028.16799989 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
 P_GSTF1                       	gene_cI                       	HSPt
 P_HYP1                        	gene_cI                       	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_tet                         	gene_GFP                      	NOSt
 
 
@@ -4418,10 +4418,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	NOSt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_CdI10                       	gene_GFP                      	NOSt
-P_RM                          	gene_GFP                      	CaMV25St
+P_RM                          	gene_GFP                      	CaMV35St
 P_ara                         	gene_GFP                      	NOSt
 
 
@@ -4437,10 +4437,10 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
-P_GT                          	gene_tetR                     	CaMV25St
+P_GT                          	gene_tetR                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 258
@@ -4458,7 +4458,7 @@ P_ZIP5                        	gene_cI                       	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
 P_GT                          	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 259
@@ -4474,7 +4474,7 @@ Promoter						Transcript						Terminator
 P_CdI3                        	gene_tetR                     	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
 P_GT                          	gene_tetR                     	HSPt
-P_ZIP2                        	gene_cI                       	CaMV25St
+P_ZIP2                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
 
@@ -4490,10 +4490,10 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_cI                       	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_FRD3                        	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 P_tet                         	gene_AraC                     	NOSt
 
 
@@ -4525,8 +4525,8 @@ time to solution: 	1345.24999999 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_AraC                     	CaMV25St
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI3                        	gene_AraC                     	CaMV35St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	NOSt
@@ -4544,7 +4544,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_tetR                     	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -4564,7 +4564,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
 P_GT                          	gene_tetR                     	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -4581,7 +4581,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_RSU1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -4600,7 +4600,7 @@ Promoter						Transcript						Terminator
 P_CaMV35S                     	gene_cI                       	HSPt
 P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -4619,7 +4619,7 @@ P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 P_tet                         	gene_cI                       	HSPt
 
 
@@ -4638,7 +4638,7 @@ P_GSTF1                       	gene_AraC                     	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_ZIP4                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 269
@@ -4670,7 +4670,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_FRD3                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -4689,7 +4689,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_ZIP2                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -4706,11 +4706,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 273
@@ -4724,7 +4724,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	HSPt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_cI                       	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -4742,9 +4742,9 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_AraC                     	NOSt
-P_ZIP5                        	gene_cI                       	CaMV25St
+P_ZIP5                        	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -4800,7 +4800,7 @@ P_GSTF1                       	gene_tetR                     	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_FRD3                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 278
@@ -4831,7 +4831,7 @@ time to solution: 	4834.70399973 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_tetR                     	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_HYP1                        	gene_cI                       	NOSt
@@ -4854,7 +4854,7 @@ P_CdI3                        	gene_tetR                     	NOSt
 P_GSTF1                       	gene_tetR                     	NOSt
 P_GT                          	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 281
@@ -4867,7 +4867,7 @@ time to solution: 	3496.90999996 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_GT                          	gene_tetR                     	HSPt
 P_FRD3                        	gene_cI                       	NOSt
@@ -4885,12 +4885,12 @@ time to solution: 	5486.76700008 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_GT                          	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_GT                          	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 283
@@ -4940,8 +4940,8 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
 P_tet                         	gene_AraC                     	NOSt
@@ -4978,7 +4978,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_cI                       	NOSt
 P_CdI10                       	gene_cI                       	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
-P_HYP1                        	gene_AraC                     	CaMV25St
+P_HYP1                        	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -4994,11 +4994,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_AraC                     	HSPt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
-P_ara2                        	gene_cI                       	CaMV25St
+P_ara2                        	gene_cI                       	CaMV35St
 
 
 Solution Number: 289
@@ -5032,7 +5032,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
-P_FRD3                        	gene_tetR                     	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -5048,7 +5048,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_AraC                     	HSPt
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -5065,7 +5065,7 @@ time to solution: 	689.80499979 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	HSPt
@@ -5084,7 +5084,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_AraC                     	HSPt
-P_CAO                         	gene_cI                       	CaMV25St
+P_CAO                         	gene_cI                       	CaMV35St
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_GSTF1                       	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -5122,7 +5122,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_cI                       	NOSt
 P_FRD3                        	gene_AraC                     	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -5160,7 +5160,7 @@ P_GSTF1                       	gene_AraC                     	NOSt
 P_GT                          	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 298
@@ -5196,7 +5196,7 @@ P_GSTF1                       	gene_AraC                     	HSPt
 P_GT                          	gene_AraC                     	HSPt
 P_FRD3                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 300
@@ -5209,7 +5209,7 @@ time to solution: 	1513.90600030 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_FRD3                        	gene_cI                       	HSPt
@@ -5230,7 +5230,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_HYP1                        	gene_AraC                     	HSPt
-P_HYP1                        	gene_cI                       	CaMV25St
+P_HYP1                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -5247,7 +5247,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_cI                       	NOSt
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_GFP                      	HSPt
@@ -5302,7 +5302,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
 P_GT                          	gene_AraC                     	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -5317,10 +5317,10 @@ time to solution: 	3320.61999987 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_GT                          	gene_AraC                     	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
 
@@ -5336,11 +5336,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_tetR                     	NOSt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 308
@@ -5356,7 +5356,7 @@ Promoter						Transcript						Terminator
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	NOSt
 P_GT                          	gene_AraC                     	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
 
@@ -5375,8 +5375,8 @@ P_CdI3                        	gene_tetR                     	NOSt
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_GT                          	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 310
@@ -5389,7 +5389,7 @@ time to solution: 	4961.58199981 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI3                        	gene_tetR                     	CaMV25St
+P_CdI3                        	gene_tetR                     	CaMV35St
 P_CdI3                        	gene_cI                       	NOSt
 P_EXO70B1_11                  	gene_tetR                     	NOSt
 P_GSTF1                       	gene_cI                       	NOSt
@@ -5407,10 +5407,10 @@ time to solution: 	4539.54099978 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_FRD3                        	gene_tetR                     	HSPt
-P_HYP1                        	gene_cI                       	CaMV25St
+P_HYP1                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
 
@@ -5428,7 +5428,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_cI                       	HSPt
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
-P_GT                          	gene_AraC                     	CaMV25St
+P_GT                          	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -5445,7 +5445,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_AraC                     	HSPt
 P_CAO                         	gene_cI                       	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -5466,7 +5466,7 @@ P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_GSTF1                       	gene_cI                       	HSPt
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 315
@@ -5479,12 +5479,12 @@ time to solution: 	1441.27499966 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	HSPt
 P_FRD3                        	gene_AraC                     	HSPt
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 316
@@ -5515,7 +5515,7 @@ time to solution: 	3663.52000013 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_AraC                     	CaMV35St
 P_GSTF1                       	gene_cI                       	HSPt
 P_GT                          	gene_AraC                     	HSPt
 P_HYP1                        	gene_cI                       	NOSt
@@ -5533,8 +5533,8 @@ time to solution: 	1412.71500005 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI10                       	gene_cI                       	CaMV25St
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_FRO2                        	gene_tetR                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_AraC                     	HSPt
@@ -5570,7 +5570,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI10                       	gene_cI                       	HSPt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_cI                       	NOSt
 P_ZIP2                        	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -5588,11 +5588,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	NOSt
-P_CdI10                       	gene_cI                       	CaMV25St
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	NOSt
-P_ara2                        	gene_tetR                     	CaMV25St
+P_ara2                        	gene_tetR                     	CaMV35St
 
 
 Solution Number: 322
@@ -5606,7 +5606,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_AraC                     	HSPt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
 P_FRD3                        	gene_cI                       	NOSt
 P_HYP1                        	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -5642,11 +5642,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_tetR                     	HSPt
-P_GSTF1                       	gene_tetR                     	CaMV25St
-P_GSTF1                       	gene_cI                       	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
+P_GSTF1                       	gene_cI                       	CaMV35St
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 325
@@ -5659,7 +5659,7 @@ time to solution: 	5156.22399941 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_cI                       	CaMV25St
+P_CAO                         	gene_cI                       	CaMV35St
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_GSTF1                       	gene_cI                       	HSPt
 P_GT                          	gene_AraC                     	HSPt
@@ -5678,11 +5678,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_GSTF1                       	gene_tetR                     	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 327
@@ -5696,7 +5696,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_AraC                     	HSPt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GT                          	gene_AraC                     	HSPt
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -5715,7 +5715,7 @@ Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_AraC                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
-P_FRD3                        	gene_cI                       	CaMV25St
+P_FRD3                        	gene_cI                       	CaMV35St
 P_HYP1                        	gene_AraC                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	NOSt
@@ -5749,12 +5749,12 @@ time to solution: 	2201.82100015 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_cI                       	HSPt
 P_FRD3                        	gene_tetR                     	HSPt
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 331
@@ -5770,7 +5770,7 @@ Promoter						Transcript						Terminator
 P_CdI10                       	gene_cI                       	HSPt
 P_GSTF1                       	gene_tetR                     	HSPt
 P_GT                          	gene_tetR                     	HSPt
-P_HYP1                        	gene_cI                       	CaMV25St
+P_HYP1                        	gene_cI                       	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -5785,7 +5785,7 @@ time to solution: 	1682.24600013 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_EXO70B1_11                  	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	HSPt
@@ -5804,7 +5804,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_FRD3                        	gene_tetR                     	HSPt
 P_FRD3                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -5822,7 +5822,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CdI3                        	gene_cI                       	NOSt
-P_GSTF1                       	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
 P_GSTF1                       	gene_cI                       	NOSt
 P_FRO2                        	gene_tetR                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -5842,7 +5842,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_cI                       	HSPt
 P_CdI10                       	gene_cI                       	HSPt
 P_GSTF1                       	gene_tetR                     	HSPt
-P_FRD3                        	gene_tetR                     	CaMV25St
+P_FRD3                        	gene_tetR                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_GFP                      	HSPt
 
@@ -5860,7 +5860,7 @@ Promoter						Transcript						Terminator
 P_CAO                         	gene_cI                       	NOSt
 P_GSTF1                       	gene_AraC                     	HSPt
 P_GSTF1                       	gene_cI                       	HSPt
-P_FRD3                        	gene_AraC                     	CaMV25St
+P_FRD3                        	gene_AraC                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_GFP                      	HSPt
 
@@ -5893,9 +5893,9 @@ time to solution: 	4931.60199998 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_tetR                     	CaMV25St
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_GT                          	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_tetR                     	CaMV35St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_GT                          	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_tet                         	gene_cI                       	HSPt
@@ -5912,11 +5912,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_HYP1                        	gene_cI                       	HSPt
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 340
@@ -5929,12 +5929,12 @@ time to solution: 	5594.82099996 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_GSTF1                       	gene_AraC                     	CaMV25St
+P_GSTF1                       	gene_AraC                     	CaMV35St
 P_GT                          	gene_tetR                     	HSPt
 P_FRO2                        	gene_AraC                     	NOSt
 P_RM                          	gene_GFP                      	HSPt
-P_ara                         	gene_cI                       	CaMV25St
-P_tet                         	gene_cI                       	CaMV25St
+P_ara                         	gene_cI                       	CaMV35St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 341
@@ -5948,11 +5948,11 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_CAO                         	gene_cI                       	HSPt
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
-P_GSTF1                       	gene_cI                       	CaMV25St
-P_HYP1                        	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
+P_GSTF1                       	gene_cI                       	CaMV35St
+P_HYP1                        	gene_tetR                     	CaMV35St
 P_RM                          	gene_GFP                      	HSPt
-P_tet                         	gene_cI                       	CaMV25St
+P_tet                         	gene_cI                       	CaMV35St
 
 
 Solution Number: 342
@@ -5965,7 +5965,7 @@ time to solution: 	4703.28299976 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_GSTF1                       	gene_AraC                     	HSPt
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
@@ -5983,7 +5983,7 @@ time to solution: 	3864.30599992 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_EXO70B1_11                  	gene_tetR                     	CaMV25St
+P_EXO70B1_11                  	gene_tetR                     	CaMV35St
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	HSPt
 P_HYP1                        	gene_tetR                     	HSPt
@@ -6002,7 +6002,7 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_tetR                     	HSPt
-P_CdI10                       	gene_cI                       	CaMV25St
+P_CdI10                       	gene_cI                       	CaMV35St
 P_FRD3                        	gene_cI                       	NOSt
 P_HYP1                        	gene_tetR                     	HSPt
 P_RM                          	gene_GFP                      	HSPt
@@ -6038,8 +6038,8 @@ Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
 P_EXO70B1_11                  	gene_AraC                     	HSPt
-P_EXO70B1_11                  	gene_cI                       	CaMV25St
-P_FRD3                        	gene_AraC                     	CaMV25St
+P_EXO70B1_11                  	gene_cI                       	CaMV35St
+P_FRD3                        	gene_AraC                     	CaMV35St
 P_HYP1                        	gene_cI                       	NOSt
 P_RM                          	gene_GFP                      	HSPt
 P_ara                         	gene_cI                       	HSPt
@@ -6091,7 +6091,7 @@ time to solution: 	9706.42299999 second
 Designed Genetic Circuit:
 Promoter						Transcript						Terminator
 --------------------------------------------------------------------------
-P_CAO                         	gene_tetR                     	CaMV25St
+P_CAO                         	gene_tetR                     	CaMV35St
 P_EXO70B1_11                  	gene_tetR                     	HSPt
 P_CdI10                       	gene_cI                       	HSPt
 P_FRD3                        	gene_cI                       	HSPt

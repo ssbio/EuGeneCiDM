@@ -243,14 +243,14 @@ BINARY VARIABLES
 M_design(P,J,T) = 0;
 
 *then define the actual design
-*P_EXO70B1_11/gene_cI/CaMV25St
-M_design("P_EXO70B1_11","gene_cI","CaMV25St") = 1;
+*P_EXO70B1_11/gene_cI/CaMV35St
+M_design("P_EXO70B1_11","gene_cI","CaMV35St") = 1;
 
 *P_FRO2/gene_cI/HSPt
 M_design("P_FRO2","gene_cI","HSPt") = 1;
 
-*P_lambda/gene_GFP/CaMV25St
-M_design("P_lambda","gene_GFP","CaMV25St") = 1;
+*P_lambda/gene_GFP/CaMV35St
+M_design("P_lambda","gene_GFP","CaMV35St") = 1;
 
 ******************************************** DEFINE EQUATIONS ****************************************************************
 

@@ -10,7 +10,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -251,7 +251,7 @@ RESULTS FOR SOLUTION NUMBER 1
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_cI                       NOSt
 P_lambda                      gene_GFP                      HSPt
@@ -736,7 +736,7 @@ RESULTS FOR SOLUTION NUMBER 3
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_GSTF1                       gene_cI                       HSPt
 P_GT                          gene_cI                       HSPt
 P_lambda                      gene_GFP                      HSPt
@@ -979,7 +979,7 @@ RESULTS FOR SOLUTION NUMBER 4
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_EXO70B1_11                  gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
 P_lambda                      gene_GFP                      HSPt
@@ -1223,7 +1223,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      HSPt
 
 
@@ -1465,7 +1465,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_tet                         gene_GFP                      NOSt
 
@@ -1705,7 +1705,7 @@ RESULTS FOR SOLUTION NUMBER 7
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_cI                       HSPt
 P_lambda                      gene_GFP                      NOSt
@@ -1945,7 +1945,7 @@ RESULTS FOR SOLUTION NUMBER 8
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     NOSt
 P_tet                         gene_GFP                      NOSt
@@ -2188,7 +2188,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -3390,7 +3390,7 @@ RESULTS FOR SOLUTION NUMBER 14
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_AraC                     CaMV25St
+P_CdI3                        gene_AraC                     CaMV35St
 P_EXO70B1_11                  gene_AraC                     NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_ara                         gene_GFP                      NOSt
@@ -3870,7 +3870,7 @@ RESULTS FOR SOLUTION NUMBER 16
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
@@ -4898,7 +4898,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     NOSt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -5448,7 +5448,7 @@ P_CdI10                       gene_cI                       NOSt
 P_GSTF1                       gene_AraC                     NOSt
 P_FRO2                        gene_AraC                     NOSt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -6271,7 +6271,7 @@ RESULTS FOR SOLUTION NUMBER 25
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -6829,7 +6829,7 @@ RESULTS FOR SOLUTION NUMBER 27
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -7654,11 +7654,11 @@ RESULTS FOR SOLUTION NUMBER 30
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -7907,8 +7907,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_FRD3                        gene_AraC                     CaMV25St
-P_ara                         gene_GFP                      CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -8155,10 +8155,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -8409,8 +8409,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -8659,9 +8659,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_FRD3                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -8909,10 +8909,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
-P_GT                          gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
+P_GT                          gene_AraC                     CaMV35St
 P_FRD3                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -9164,7 +9164,7 @@ P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_FRD3                        gene_GFP                      NOSt
 P_FRD3                        gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -9415,7 +9415,7 @@ P_CAO                         gene_AraC                     HSPt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -9661,11 +9661,11 @@ RESULTS FOR SOLUTION NUMBER 38
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_AraC                     CaMV25St
+P_CAO                         gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -9912,11 +9912,11 @@ RESULTS FOR SOLUTION NUMBER 39
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GT                          gene_AraC                     HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -10166,8 +10166,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_HYP1                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_HYP1                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -10418,7 +10418,7 @@ P_CAO                         gene_tetR                     HSPt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -10664,11 +10664,11 @@ RESULTS FOR SOLUTION NUMBER 42
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_HYP1                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_HYP1                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -10917,8 +10917,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_HYP1                        gene_AraC                     CaMV25St
-P_ara                         gene_GFP                      CaMV25St
+P_HYP1                        gene_AraC                     CaMV35St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -11165,10 +11165,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_GFP                      NOSt
-P_HYP1                        gene_AraC                     CaMV25St
-P_ara                         gene_GFP                      CaMV25St
+P_HYP1                        gene_AraC                     CaMV35St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -11415,11 +11415,11 @@ RESULTS FOR SOLUTION NUMBER 45
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -11666,11 +11666,11 @@ RESULTS FOR SOLUTION NUMBER 46
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRD3                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -11917,11 +11917,11 @@ RESULTS FOR SOLUTION NUMBER 47
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
 P_HYP1                        gene_tetR                     HSPt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -12167,11 +12167,11 @@ RESULTS FOR SOLUTION NUMBER 48
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -12420,9 +12420,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_GT                          gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -12674,7 +12674,7 @@ P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
 P_HYP1                        gene_tetR                     HSPt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -12923,9 +12923,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -13174,9 +13174,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -13425,8 +13425,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_GT                          gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_GT                          gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -13676,8 +13676,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -13928,7 +13928,7 @@ P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -14178,8 +14178,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -14426,10 +14426,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_AraC                     HSPt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -14677,9 +14677,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -14928,10 +14928,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GT                          gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -15181,8 +15181,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_FRD3                        gene_AraC                     CaMV25St
-P_ara                         gene_GFP                      CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -15432,7 +15432,7 @@ P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_AraC                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -15682,7 +15682,7 @@ P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_tetR                     HSPt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -15929,10 +15929,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -16183,8 +16183,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
-P_FRD3                        gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -16434,8 +16434,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_tetR                     HSPt
-P_GT                          gene_tetR                     CaMV25St
-P_tet                         gene_GFP                      CaMV25St
+P_GT                          gene_tetR                     CaMV35St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -16684,10 +16684,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_AraC                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -16937,8 +16937,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_HYP1                        gene_AraC                     CaMV25St
-P_ara                         gene_GFP                      CaMV25St
+P_HYP1                        gene_AraC                     CaMV35St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -17187,9 +17187,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -17440,7 +17440,7 @@ P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_AraC                     HSPt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -17690,7 +17690,7 @@ P_CAO                         gene_GFP                      NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_HYP1                        gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -17941,7 +17941,7 @@ P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
 P_HYP1                        gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -18188,10 +18188,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_tetR                     HSPt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -18438,10 +18438,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
 P_HYP1                        gene_tetR                     HSPt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -18688,11 +18688,11 @@ RESULTS FOR SOLUTION NUMBER 74
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
-P_tet                         gene_GFP                      CaMV25St
+P_tet                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -18942,7 +18942,7 @@ P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -19190,10 +19190,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_AraC                     HSPt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -19439,11 +19439,11 @@ RESULTS FOR SOLUTION NUMBER 77
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_AraC                     CaMV25St
+P_CAO                         gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_HYP1                        gene_GFP                      NOSt
-P_ara                         gene_GFP                      CaMV25St
+P_ara                         gene_GFP                      CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -19963,7 +19963,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
 P_GSTF1                       gene_cI                       HSPt
 P_GT                          gene_cI                       HSPt
-P_RM                          gene_AraC                     CaMV25St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -20232,8 +20232,8 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
 P_GSTF1                       gene_tetR                     NOSt
-P_GT                          gene_tetR                     CaMV25St
-P_tet                         gene_AraC                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
+P_tet                         gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      HSPt
 
 
@@ -20506,7 +20506,7 @@ RESULTS FOR SOLUTION NUMBER 81
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_cI                       CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_FRO2                        gene_cI                       NOSt
 P_RM                          gene_tetR                     HSPt
@@ -20775,9 +20775,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
-P_lambda                      gene_AraC                     CaMV25St
+P_lambda                      gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      HSPt
 
 
@@ -21052,7 +21052,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_cI                       HSPt
 P_GT                          gene_AraC                     HSPt
 P_FRO2                        gene_cI                       HSPt
-P_RM                          gene_AraC                     CaMV25St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -21318,7 +21318,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
 P_EXO70B1_11                  gene_cI                       HSPt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_RM                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -21583,7 +21583,7 @@ RESULTS FOR SOLUTION NUMBER 85
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_CdI10                       gene_AraC                     HSPt
 P_GSTF1                       gene_cI                       NOSt
 P_lambda                      gene_GFP                      HSPt
@@ -21863,10 +21863,10 @@ RESULTS FOR SOLUTION NUMBER 86
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_cI                       NOSt
-P_lambda                      gene_AraC                     CaMV25St
+P_lambda                      gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      HSPt
 
 
@@ -22142,7 +22142,7 @@ P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
 P_GT                          gene_tetR                     HSPt
 P_tet                         gene_GFP                      HSPt
-P_ara2                        gene_tetR                     CaMV25St
+P_ara2                        gene_tetR                     CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -22409,7 +22409,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_cI                       HSPt
 P_GT                          gene_tetR                     HSPt
 P_FRO2                        gene_cI                       HSPt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -22943,8 +22943,8 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
-P_FRO2                        gene_cI                       CaMV25St
-P_RM                          gene_tetR                     CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -23212,9 +23212,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       HSPt
-P_GSTF1                       gene_cI                       CaMV25St
-P_GT                          gene_AraC                     CaMV25St
-P_RM                          gene_AraC                     CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
+P_GT                          gene_AraC                     CaMV35St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -23480,7 +23480,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       HSPt
-P_GSTF1                       gene_cI                       CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_lambda                      gene_AraC                     HSPt
 P_ara2                        gene_GFP                      HSPt
@@ -23756,7 +23756,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_AraC                     HSPt
-P_GSTF1                       gene_cI                       CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
 P_FRO2                        gene_cI                       NOSt
 P_lambda                      gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -24586,7 +24586,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_RM                          gene_tetR                     HSPt
 P_tet                         gene_GFP                      HSPt
@@ -24856,7 +24856,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
 P_EXO70B1_11                  gene_AraC                     NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 P_ara2                        gene_tetR                     HSPt
 
@@ -25122,7 +25122,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_tetR                     HSPt
 P_lambda                      gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
@@ -26480,7 +26480,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_AraC                     NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_tet                         gene_AraC                     NOSt
 P_ara2                        gene_GFP                      HSPt
@@ -27035,7 +27035,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_AraC                     HSPt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      HSPt
 P_ara2                        gene_cI                       HSPt
 
@@ -27299,7 +27299,7 @@ RESULTS FOR SOLUTION NUMBER 106
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_CdI10                       gene_AraC                     NOSt
 P_GSTF1                       gene_tetR                     NOSt
 P_tet                         gene_AraC                     NOSt
@@ -27573,10 +27573,10 @@ RESULTS FOR SOLUTION NUMBER 107
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_cI                       NOSt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -27844,7 +27844,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_AraC                     HSPt
 P_ara2                        gene_GFP                      HSPt
 
@@ -28662,7 +28662,7 @@ P_CdI3                        gene_cI                       NOSt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_GT                          gene_cI                       HSPt
 P_lambda                      gene_GFP                      HSPt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -28932,7 +28932,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_RM                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
@@ -29201,7 +29201,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_FRO2                        gene_cI                       HSPt
 P_RM                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
@@ -29743,8 +29743,8 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_cI                       NOSt
-P_GT                          gene_AraC                     CaMV25St
-P_FRO2                        gene_cI                       CaMV25St
+P_GT                          gene_AraC                     CaMV35St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      HSPt
 P_ara2                        gene_cI                       HSPt
 
@@ -30009,7 +30009,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_tetR                     HSPt
 P_GSTF1                       gene_cI                       NOSt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
 
@@ -30289,9 +30289,9 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
-P_FRD3                        gene_AraC                     CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
 P_lambda                      gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -30559,10 +30559,10 @@ RESULTS FOR SOLUTION NUMBER 118
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_cI                       NOSt
-P_RM                          gene_AraC                     CaMV25St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -30831,7 +30831,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_GT                          gene_tetR                     HSPt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -31095,7 +31095,7 @@ RESULTS FOR SOLUTION NUMBER 120
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_AraC                     HSPt
 P_lambda                      gene_GFP                      HSPt
@@ -31363,7 +31363,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_RM                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -32184,7 +32184,7 @@ RESULTS FOR SOLUTION NUMBER 124
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_lambda                      gene_GFP                      HSPt
@@ -32459,7 +32459,7 @@ P_GSTF1                       gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_AraC                     HSPt
 P_lambda                      gene_GFP                      HSPt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -33276,9 +33276,9 @@ RESULTS FOR SOLUTION NUMBER 128
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_cI                       HSPt
-P_FRD3                        gene_AraC                     CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
 P_lambda                      gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
 
@@ -33548,7 +33548,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_GT                          gene_AraC                     HSPt
 P_lambda                      gene_GFP                      HSPt
 P_ara2                        gene_cI                       HSPt
@@ -33816,7 +33816,7 @@ P_EXO70B1_11                  gene_cI                       NOSt
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_AraC                     HSPt
 P_lambda                      gene_GFP                      HSPt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -34086,7 +34086,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_AraC                     HSPt
 P_lambda                      gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -34368,7 +34368,7 @@ P_EXO70B1_11                  gene_AraC                     HSPt
 P_GT                          gene_cI                       HSPt
 P_FRO2                        gene_cI                       NOSt
 P_lambda                      gene_GFP                      HSPt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -34637,7 +34637,7 @@ RESULTS FOR SOLUTION NUMBER 133
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_tetR                     HSPt
 P_FRO2                        gene_cI                       NOSt
 P_lambda                      gene_GFP                      HSPt
@@ -34918,7 +34918,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_cI                       NOSt
 P_CdI10                       gene_AraC                     HSPt
-P_FRO2                        gene_cI                       CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -36010,8 +36010,8 @@ RESULTS FOR SOLUTION NUMBER 138
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_tetR                     CaMV25St
-P_GT                          gene_AraC                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
+P_GT                          gene_AraC                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_ara                         gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
@@ -36273,7 +36273,7 @@ RESULTS FOR SOLUTION NUMBER 139
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_CdI10                       gene_AraC                     HSPt
 P_tet                         gene_GFP                      NOSt
@@ -37089,7 +37089,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_FRO2                        gene_AraC                     NOSt
 P_ara                         gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
@@ -37352,8 +37352,8 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_cI                       NOSt
-P_GT                          gene_tetR                     CaMV25St
-P_FRO2                        gene_cI                       CaMV25St
+P_GT                          gene_tetR                     CaMV35St
+P_FRO2                        gene_cI                       CaMV35St
 P_lambda                      gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
 
@@ -37892,7 +37892,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GT                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
@@ -38155,7 +38155,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_FRO2                        gene_AraC                     NOSt
 P_ara                         gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
@@ -38418,7 +38418,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
 P_EXO70B1_11                  gene_cI                       HSPt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_lambda                      gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
 
@@ -38942,7 +38942,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       HSPt
 P_GSTF1                       gene_cI                       NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_lambda                      gene_GFP                      NOSt
 P_ara                         gene_GFP                      NOSt
 
@@ -40033,7 +40033,7 @@ RESULTS FOR SOLUTION NUMBER 153
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_GSTF1                       gene_cI                       HSPt
 P_GT                          gene_tetR                     HSPt
 P_lambda                      gene_GFP                      NOSt
@@ -40820,7 +40820,7 @@ RESULTS FOR SOLUTION NUMBER 156
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_GT                          gene_AraC                     HSPt
 P_ara                         gene_GFP                      NOSt
@@ -41344,8 +41344,8 @@ RESULTS FOR SOLUTION NUMBER 158
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_cI                       CaMV25St
-P_GT                          gene_AraC                     CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
+P_GT                          gene_AraC                     CaMV35St
 P_FRO2                        gene_cI                       NOSt
 P_lambda                      gene_GFP                      NOSt
 P_ara                         gene_GFP                      NOSt
@@ -41608,7 +41608,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_tet                         gene_GFP                      NOSt
 P_ara2                        gene_tetR                     NOSt
@@ -42151,7 +42151,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_tet                         gene_AraC                     HSPt
 P_ara2                        gene_GFP                      NOSt
 
@@ -42427,7 +42427,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       HSPt
-P_FRO2                        gene_AraC                     CaMV25St
+P_FRO2                        gene_AraC                     CaMV35St
 P_lambda                      gene_GFP                      NOSt
 P_ara2                        gene_cI                       HSPt
 
@@ -42697,7 +42697,7 @@ RESULTS FOR SOLUTION NUMBER 163
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_tet                         gene_AraC                     HSPt
@@ -42972,7 +42972,7 @@ RESULTS FOR SOLUTION NUMBER 164
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_cI                       HSPt
 P_RM                          gene_AraC                     HSPt
@@ -43774,8 +43774,8 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       HSPt
-P_FRO2                        gene_cI                       CaMV25St
-P_RM                          gene_AraC                     CaMV25St
+P_FRO2                        gene_cI                       CaMV35St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -44303,9 +44303,9 @@ RESULTS FOR SOLUTION NUMBER 169
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_FRD3                        gene_AraC                     CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
 P_tet                         gene_AraC                     HSPt
 P_ara2                        gene_GFP                      NOSt
 
@@ -44585,7 +44585,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_AraC                     HSPt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_tet                         gene_AraC                     HSPt
 P_ara2                        gene_GFP                      NOSt
@@ -44868,7 +44868,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -45407,10 +45407,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRO2                        gene_AraC                     NOSt
 P_tet                         gene_GFP                      NOSt
-P_ara2                        gene_tetR                     CaMV25St
+P_ara2                        gene_tetR                     CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -45673,7 +45673,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_lambda                      gene_GFP                      NOSt
 P_ara2                        gene_cI                       HSPt
@@ -45943,11 +45943,11 @@ RESULTS FOR SOLUTION NUMBER 175
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_AraC                     CaMV25St
+P_CdI3                        gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     NOSt
 P_tet                         gene_GFP                      NOSt
-P_ara2                        gene_tetR                     CaMV25St
+P_ara2                        gene_tetR                     CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -46479,9 +46479,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
-P_tet                         gene_AraC                     CaMV25St
+P_tet                         gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      NOSt
 
 
@@ -46758,7 +46758,7 @@ P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_cI                       HSPt
 P_lambda                      gene_GFP                      NOSt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -47584,7 +47584,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       NOSt
 P_FRO2                        gene_cI                       HSPt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -47850,7 +47850,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_tetR                     NOSt
-P_tet                         gene_AraC                     CaMV25St
+P_tet                         gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      NOSt
 
 
@@ -48122,10 +48122,10 @@ RESULTS FOR SOLUTION NUMBER 183
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_cI                       CaMV25St
+P_CdI3                        gene_cI                       CaMV35St
 P_EXO70B1_11                  gene_cI                       NOSt
 P_CdI10                       gene_GFP                      NOSt
-P_RM                          gene_AraC                     CaMV25St
+P_RM                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -48388,7 +48388,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_AraC                     HSPt
 P_tet                         gene_GFP                      NOSt
 P_ara2                        gene_tetR                     NOSt
@@ -48659,7 +48659,7 @@ RESULTS FOR SOLUTION NUMBER 185
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_AraC                     HSPt
 P_lambda                      gene_GFP                      NOSt
@@ -48929,7 +48929,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_tetR                     HSPt
 P_ara                         gene_GFP                      NOSt
 P_tet                         gene_AraC                     NOSt
@@ -49201,7 +49201,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       NOSt
-P_lambda                      gene_AraC                     CaMV25St
+P_lambda                      gene_AraC                     CaMV35St
 P_ara2                        gene_GFP                      NOSt
 
 
@@ -49744,7 +49744,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_lambda                      gene_AraC                     HSPt
 P_ara2                        gene_GFP                      NOSt
@@ -50021,7 +50021,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       HSPt
-P_RM                          gene_tetR                     CaMV25St
+P_RM                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -52166,10 +52166,10 @@ RESULTS FOR SOLUTION NUMBER 198
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
-P_HYP1                        gene_tetR                     CaMV25St
+P_HYP1                        gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -52417,9 +52417,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -52670,7 +52670,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_tetR                     HSPt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -52919,7 +52919,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_AraC                     HSPt
 P_HYP1                        gene_GFP                      NOSt
 P_ara                         gene_GFP                      HSPt
@@ -53171,8 +53171,8 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
-P_GT                          gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
+P_GT                          gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -53673,9 +53673,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_HYP1                        gene_tetR                     CaMV25St
+P_HYP1                        gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -53924,7 +53924,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_HYP1                        gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -54676,7 +54676,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -54926,9 +54926,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_CAO                         gene_AraC                     CaMV25St
+P_CAO                         gene_AraC                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_ara                         gene_GFP                      HSPt
 
 
@@ -55176,7 +55176,7 @@ RESULTS FOR SOLUTION NUMBER 210
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_AraC                     CaMV25St
+P_CAO                         gene_AraC                     CaMV35St
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_GSTF1                       gene_GFP                      NOSt
 P_HYP1                        gene_GFP                      NOSt
@@ -55679,7 +55679,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_CAO                         gene_tetR                     HSPt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
 P_tet                         gene_GFP                      HSPt
 
@@ -55929,7 +55929,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_GFP                      NOSt
 P_GSTF1                       gene_AraC                     HSPt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
 P_ara                         gene_GFP                      HSPt
 
@@ -56180,7 +56180,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
 P_HYP1                        gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
@@ -56431,7 +56431,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
 P_HYP1                        gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
@@ -56682,8 +56682,8 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
-P_GT                          gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
+P_GT                          gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -56933,9 +56933,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
-P_HYP1                        gene_tetR                     CaMV25St
+P_HYP1                        gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -57184,9 +57184,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
 P_tet                         gene_GFP                      HSPt
 
 
@@ -58186,7 +58186,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
 P_FRD3                        gene_AraC                     HSPt
 P_ara                         gene_GFP                      HSPt
@@ -58435,9 +58435,9 @@ RESULTS FOR SOLUTION NUMBER 223
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
 P_tet                         gene_GFP                      HSPt
 
@@ -58936,9 +58936,9 @@ RESULTS FOR SOLUTION NUMBER 225
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_GSTF1                       gene_GFP                      NOSt
-P_FRD3                        gene_tetR                     CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
 P_HYP1                        gene_GFP                      NOSt
 P_tet                         gene_GFP                      HSPt
 
@@ -59188,7 +59188,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_GFP                      NOSt
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_tetR                     HSPt
 P_tet                         gene_GFP                      HSPt
 
@@ -59939,7 +59939,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_GFP                      NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_HYP1                        gene_GFP                      NOSt
 P_tet                         gene_GFP                      HSPt
@@ -60190,11 +60190,11 @@ RESULTS FOR SOLUTION NUMBER 230
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_cI                       HSPt
 
 
@@ -60466,12 +60466,12 @@ RESULTS FOR SOLUTION NUMBER 231
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_cI                       HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_RM                          gene_GFP                      CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -60745,8 +60745,8 @@ P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_RM                          gene_GFP                      CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -61017,11 +61017,11 @@ RESULTS FOR SOLUTION NUMBER 233
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_FRO2                        gene_cI                       HSPt
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_cI                       HSPt
 
 
@@ -61292,11 +61292,11 @@ RESULTS FOR SOLUTION NUMBER 234
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -61569,7 +61569,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 P_ara2                        gene_cI                       HSPt
 
@@ -61841,11 +61841,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -62117,9 +62117,9 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -62388,11 +62388,11 @@ RESULTS FOR SOLUTION NUMBER 238
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       NOSt
-P_HYP1                        gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_HYP1                        gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -62667,8 +62667,8 @@ P_CdI3                        gene_cI                       HSPt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_RM                          gene_GFP                      CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -62938,11 +62938,11 @@ RESULTS FOR SOLUTION NUMBER 240
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_cI                       CaMV25St
+P_CAO                         gene_cI                       CaMV35St
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -63215,8 +63215,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       NOSt
-P_FRD3                        gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -63491,7 +63491,7 @@ P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       HSPt
 P_HYP1                        gene_cI                       NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -63766,8 +63766,8 @@ P_CdI3                        gene_cI                       HSPt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_FRD3                        gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
-P_ara                         gene_cI                       CaMV25St
+P_RM                          gene_GFP                      CaMV35St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -64041,7 +64041,7 @@ P_EXO70B1_11                  gene_tetR                     HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -64311,11 +64311,11 @@ RESULTS FOR SOLUTION NUMBER 245
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -64589,8 +64589,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_CdI10                       gene_GFP                      NOSt
-P_FRD3                        gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -64861,10 +64861,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_CdI10                       gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -65135,11 +65135,11 @@ RESULTS FOR SOLUTION NUMBER 248
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_EXO70B1_11                  gene_cI                       NOSt
 P_CdI10                       gene_GFP                      NOSt
 P_HYP1                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -65409,11 +65409,11 @@ RESULTS FOR SOLUTION NUMBER 249
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_GSTF1                       gene_cI                       CaMV25St
-P_HYP1                        gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
+P_HYP1                        gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -65688,7 +65688,7 @@ P_CAO                         gene_cI                       HSPt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -65960,10 +65960,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_CdI10                       gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -66237,8 +66237,8 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       HSPt
-P_FRD3                        gene_cI                       CaMV25St
-P_RM                          gene_GFP                      CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -66513,7 +66513,7 @@ P_CAO                         gene_cI                       HSPt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -66784,11 +66784,11 @@ RESULTS FOR SOLUTION NUMBER 254
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       NOSt
 P_FRD3                        gene_cI                       HSPt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -67059,11 +67059,11 @@ RESULTS FOR SOLUTION NUMBER 255
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_GFP                      NOSt
 P_GSTF1                       gene_cI                       HSPt
 P_HYP1                        gene_cI                       NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_tet                         gene_GFP                      NOSt
 
 
@@ -67335,10 +67335,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_CdI10                       gene_GFP                      NOSt
-P_RM                          gene_GFP                      CaMV25St
+P_RM                          gene_GFP                      CaMV35St
 P_ara                         gene_GFP                      NOSt
 
 
@@ -67610,10 +67610,10 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
 P_GSTF1                       gene_tetR                     NOSt
-P_GT                          gene_tetR                     CaMV25St
+P_GT                          gene_tetR                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -67890,7 +67890,7 @@ P_ZIP5                        gene_cI                       NOSt
 P_GSTF1                       gene_tetR                     NOSt
 P_GT                          gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -68165,7 +68165,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
 P_GSTF1                       gene_tetR                     NOSt
 P_GT                          gene_tetR                     HSPt
-P_ZIP2                        gene_cI                       CaMV25St
+P_ZIP2                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
 
@@ -68441,10 +68441,10 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_cI                       NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_FRD3                        gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 P_tet                         gene_AraC                     NOSt
 
 
@@ -69022,8 +69022,8 @@ RESULTS FOR SOLUTION NUMBER 262
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_AraC                     CaMV25St
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI3                        gene_AraC                     CaMV35St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     NOSt
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       NOSt
@@ -69323,7 +69323,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_tetR                     NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GT                          gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -69622,7 +69622,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_cI                       HSPt
 P_GT                          gene_tetR                     HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_GFP                      HSPt
 
@@ -69898,7 +69898,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_RSU1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -70177,7 +70177,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CaMV35S                     gene_cI                       HSPt
 P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -70455,7 +70455,7 @@ P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
 P_GT                          gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 P_tet                         gene_cI                       HSPt
 
 
@@ -70733,7 +70733,7 @@ P_GSTF1                       gene_AraC                     NOSt
 P_GT                          gene_AraC                     HSPt
 P_ZIP4                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -71283,7 +71283,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
-P_GSTF1                       gene_cI                       CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_FRD3                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
@@ -71561,7 +71561,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_ZIP2                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -71838,11 +71838,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
-P_CdI10                       gene_cI                       CaMV25St
-P_GSTF1                       gene_tetR                     CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -72122,7 +72122,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_GSTF1                       gene_cI                       NOSt
 P_FRD3                        gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
@@ -72405,9 +72405,9 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_AraC                     NOSt
-P_ZIP5                        gene_cI                       CaMV25St
+P_ZIP5                        gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -73238,7 +73238,7 @@ P_GSTF1                       gene_tetR                     HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_FRD3                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -73795,7 +73795,7 @@ RESULTS FOR SOLUTION NUMBER 279
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_tetR                     HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_HYP1                        gene_cI                       NOSt
@@ -74084,7 +74084,7 @@ P_CdI3                        gene_tetR                     NOSt
 P_GSTF1                       gene_tetR                     NOSt
 P_GT                          gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -74356,7 +74356,7 @@ RESULTS FOR SOLUTION NUMBER 281
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_GT                          gene_tetR                     HSPt
 P_FRD3                        gene_cI                       NOSt
@@ -74640,12 +74640,12 @@ RESULTS FOR SOLUTION NUMBER 282
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
-P_GSTF1                       gene_cI                       CaMV25St
-P_GT                          gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
+P_GSTF1                       gene_cI                       CaMV35St
+P_GT                          gene_tetR                     CaMV35St
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -75476,8 +75476,8 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
-P_CdI10                       gene_cI                       CaMV25St
-P_GSTF1                       gene_AraC                     CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
 P_tet                         gene_AraC                     NOSt
@@ -76055,7 +76055,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
 P_CdI10                       gene_cI                       NOSt
 P_GSTF1                       gene_AraC                     HSPt
-P_HYP1                        gene_AraC                     CaMV25St
+P_HYP1                        gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -76337,11 +76337,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_AraC                     HSPt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
-P_ara2                        gene_cI                       CaMV25St
+P_ara2                        gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -76925,7 +76925,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_cI                       HSPt
-P_FRD3                        gene_tetR                     CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_GFP                      HSPt
 
@@ -77199,7 +77199,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_AraC                     HSPt
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -77474,7 +77474,7 @@ RESULTS FOR SOLUTION NUMBER 292
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_cI                       HSPt
@@ -77751,7 +77751,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_AraC                     HSPt
-P_CAO                         gene_cI                       CaMV25St
+P_CAO                         gene_cI                       CaMV35St
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_GSTF1                       gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -78321,7 +78321,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_cI                       NOSt
 P_FRD3                        gene_AraC                     HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -78887,7 +78887,7 @@ P_GSTF1                       gene_AraC                     NOSt
 P_GT                          gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -79465,7 +79465,7 @@ P_GSTF1                       gene_AraC                     HSPt
 P_GT                          gene_AraC                     HSPt
 P_FRD3                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -79745,7 +79745,7 @@ RESULTS FOR SOLUTION NUMBER 300
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_FRD3                        gene_cI                       HSPt
@@ -80024,7 +80024,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_HYP1                        gene_AraC                     HSPt
-P_HYP1                        gene_cI                       CaMV25St
+P_HYP1                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -80298,7 +80298,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
 P_EXO70B1_11                  gene_cI                       NOSt
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_GT                          gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_GFP                      HSPt
@@ -81156,7 +81156,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_cI                       HSPt
 P_GT                          gene_AraC                     HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -81430,10 +81430,10 @@ RESULTS FOR SOLUTION NUMBER 306
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_GT                          gene_AraC                     HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
 
@@ -81715,11 +81715,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_tetR                     NOSt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -82014,7 +82014,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_EXO70B1_11                  gene_cI                       NOSt
 P_GT                          gene_AraC                     HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
 
@@ -82298,8 +82298,8 @@ P_CdI3                        gene_tetR                     NOSt
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_GT                          gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -82590,7 +82590,7 @@ RESULTS FOR SOLUTION NUMBER 310
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI3                        gene_tetR                     CaMV25St
+P_CdI3                        gene_tetR                     CaMV35St
 P_CdI3                        gene_cI                       NOSt
 P_EXO70B1_11                  gene_tetR                     NOSt
 P_GSTF1                       gene_cI                       NOSt
@@ -82865,10 +82865,10 @@ RESULTS FOR SOLUTION NUMBER 311
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
-P_GSTF1                       gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
+P_GSTF1                       gene_cI                       CaMV35St
 P_FRD3                        gene_tetR                     HSPt
-P_HYP1                        gene_cI                       CaMV25St
+P_HYP1                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
 
@@ -83151,7 +83151,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_cI                       HSPt
-P_GT                          gene_AraC                     CaMV25St
+P_GT                          gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -83427,7 +83427,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_AraC                     HSPt
 P_CAO                         gene_cI                       NOSt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -83714,7 +83714,7 @@ P_EXO70B1_11                  gene_tetR                     HSPt
 P_GSTF1                       gene_cI                       HSPt
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -83992,12 +83992,12 @@ RESULTS FOR SOLUTION NUMBER 315
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     HSPt
 P_FRD3                        gene_AraC                     HSPt
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -84551,7 +84551,7 @@ RESULTS FOR SOLUTION NUMBER 317
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_AraC                     CaMV35St
 P_GSTF1                       gene_cI                       HSPt
 P_GT                          gene_AraC                     HSPt
 P_HYP1                        gene_cI                       NOSt
@@ -84835,8 +84835,8 @@ RESULTS FOR SOLUTION NUMBER 318
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI10                       gene_cI                       CaMV25St
-P_GSTF1                       gene_tetR                     CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_FRO2                        gene_tetR                     NOSt
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_AraC                     HSPt
@@ -85422,7 +85422,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_cI                       HSPt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_HYP1                        gene_cI                       NOSt
 P_ZIP2                        gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
@@ -85704,11 +85704,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
-P_CdI10                       gene_cI                       CaMV25St
-P_GSTF1                       gene_tetR                     CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       NOSt
-P_ara2                        gene_tetR                     CaMV25St
+P_ara2                        gene_tetR                     CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -85985,7 +85985,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
-P_EXO70B1_11                  gene_cI                       CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
 P_FRD3                        gene_cI                       NOSt
 P_HYP1                        gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
@@ -86549,11 +86549,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_tetR                     HSPt
-P_GSTF1                       gene_tetR                     CaMV25St
-P_GSTF1                       gene_cI                       CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
+P_GSTF1                       gene_cI                       CaMV35St
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -86832,7 +86832,7 @@ RESULTS FOR SOLUTION NUMBER 325
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_cI                       CaMV25St
+P_CAO                         gene_cI                       CaMV35St
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_GSTF1                       gene_cI                       HSPt
 P_GT                          gene_AraC                     HSPt
@@ -87110,11 +87110,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_GSTF1                       gene_tetR                     HSPt
-P_GSTF1                       gene_cI                       CaMV25St
-P_HYP1                        gene_tetR                     CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
+P_HYP1                        gene_tetR                     CaMV35St
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -87394,7 +87394,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GT                          gene_AraC                     HSPt
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -87672,7 +87672,7 @@ CIRCUIT DESIGN
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
 P_CdI10                       gene_cI                       HSPt
-P_FRD3                        gene_cI                       CaMV25St
+P_FRD3                        gene_cI                       CaMV35St
 P_HYP1                        gene_AraC                     HSPt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       NOSt
@@ -88259,12 +88259,12 @@ RESULTS FOR SOLUTION NUMBER 330
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GSTF1                       gene_cI                       HSPt
 P_FRD3                        gene_tetR                     HSPt
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -88546,7 +88546,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI10                       gene_cI                       HSPt
 P_GSTF1                       gene_tetR                     HSPt
 P_GT                          gene_tetR                     HSPt
-P_HYP1                        gene_cI                       CaMV25St
+P_HYP1                        gene_cI                       CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_GFP                      HSPt
 
@@ -88821,7 +88821,7 @@ RESULTS FOR SOLUTION NUMBER 332
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_EXO70B1_11                  gene_cI                       HSPt
 P_FRD3                        gene_cI                       HSPt
@@ -89097,7 +89097,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_FRD3                        gene_tetR                     HSPt
 P_FRD3                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
@@ -89380,7 +89380,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CdI3                        gene_cI                       NOSt
-P_GSTF1                       gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
 P_GSTF1                       gene_cI                       NOSt
 P_FRO2                        gene_tetR                     NOSt
 P_RM                          gene_GFP                      HSPt
@@ -89658,7 +89658,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
 P_CdI10                       gene_cI                       HSPt
 P_GSTF1                       gene_tetR                     HSPt
-P_FRD3                        gene_tetR                     CaMV25St
+P_FRD3                        gene_tetR                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_GFP                      HSPt
 
@@ -89935,7 +89935,7 @@ PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       NOSt
 P_GSTF1                       gene_AraC                     HSPt
 P_GSTF1                       gene_cI                       HSPt
-P_FRD3                        gene_AraC                     CaMV25St
+P_FRD3                        gene_AraC                     CaMV35St
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_GFP                      HSPt
 
@@ -90486,9 +90486,9 @@ RESULTS FOR SOLUTION NUMBER 338
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_tetR                     CaMV25St
-P_GSTF1                       gene_cI                       CaMV25St
-P_GT                          gene_tetR                     CaMV25St
+P_GSTF1                       gene_tetR                     CaMV35St
+P_GSTF1                       gene_cI                       CaMV35St
+P_GT                          gene_tetR                     CaMV35St
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
 P_tet                         gene_cI                       HSPt
@@ -90772,11 +90772,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
-P_GSTF1                       gene_cI                       CaMV25St
-P_HYP1                        gene_tetR                     CaMV25St
+P_GSTF1                       gene_cI                       CaMV35St
+P_HYP1                        gene_tetR                     CaMV35St
 P_HYP1                        gene_cI                       HSPt
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -91054,12 +91054,12 @@ RESULTS FOR SOLUTION NUMBER 340
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_GSTF1                       gene_AraC                     CaMV25St
+P_GSTF1                       gene_AraC                     CaMV35St
 P_GT                          gene_tetR                     HSPt
 P_FRO2                        gene_AraC                     NOSt
 P_RM                          gene_GFP                      HSPt
-P_ara                         gene_cI                       CaMV25St
-P_tet                         gene_cI                       CaMV25St
+P_ara                         gene_cI                       CaMV35St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -91352,11 +91352,11 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_CAO                         gene_cI                       HSPt
-P_EXO70B1_11                  gene_tetR                     CaMV25St
-P_GSTF1                       gene_cI                       CaMV25St
-P_HYP1                        gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
+P_GSTF1                       gene_cI                       CaMV35St
+P_HYP1                        gene_tetR                     CaMV35St
 P_RM                          gene_GFP                      HSPt
-P_tet                         gene_cI                       CaMV25St
+P_tet                         gene_cI                       CaMV35St
 
 
 RESPONDANTS TO LIGANDS
@@ -91634,7 +91634,7 @@ RESULTS FOR SOLUTION NUMBER 342
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_GSTF1                       gene_AraC                     HSPt
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
@@ -91915,7 +91915,7 @@ RESULTS FOR SOLUTION NUMBER 343
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_EXO70B1_11                  gene_tetR                     CaMV25St
+P_EXO70B1_11                  gene_tetR                     CaMV35St
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_cI                       HSPt
 P_HYP1                        gene_tetR                     HSPt
@@ -92192,7 +92192,7 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_tetR                     HSPt
-P_CdI10                       gene_cI                       CaMV25St
+P_CdI10                       gene_cI                       CaMV35St
 P_FRD3                        gene_cI                       NOSt
 P_HYP1                        gene_tetR                     HSPt
 P_RM                          gene_GFP                      HSPt
@@ -92771,8 +92771,8 @@ CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
 P_EXO70B1_11                  gene_AraC                     HSPt
-P_EXO70B1_11                  gene_cI                       CaMV25St
-P_FRD3                        gene_AraC                     CaMV25St
+P_EXO70B1_11                  gene_cI                       CaMV35St
+P_FRD3                        gene_AraC                     CaMV35St
 P_HYP1                        gene_cI                       NOSt
 P_RM                          gene_GFP                      HSPt
 P_ara                         gene_cI                       HSPt
@@ -93618,7 +93618,7 @@ RESULTS FOR SOLUTION NUMBER 349
 CIRCUIT DESIGN
 
 PROMOTOR					TRANSCRIPT					TERMINATOR
-P_CAO                         gene_tetR                     CaMV25St
+P_CAO                         gene_tetR                     CaMV35St
 P_EXO70B1_11                  gene_tetR                     HSPt
 P_CdI10                       gene_cI                       HSPt
 P_FRD3                        gene_cI                       HSPt

@@ -26,7 +26,7 @@
 'gene_tetR'.'gene_tetR' 1
 'gene_cI'.'gene_cI' 1
 'NOSt'.'NOSt' 1
-'CaMV25St'.'CaMV25St' 1
+'CaMV35St'.'CaMV35St' 1
 'HSPt'.'HSPt' 1
 'mKO'.'mKO' 1
 'GFP'.'GFP' 1

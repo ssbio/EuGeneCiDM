@@ -229,7 +229,7 @@ BINARY VARIABLES
 M_design(P,J,T) = 0;
 
 *terminators
-*CaMV25St
+*CaMV35St
 *NOSt
 *HSPt
 
@@ -238,10 +238,10 @@ M_design(P,J,T) = 0;
 M_design("P_ara","gene_cI","HSPt") = 1;
 
 *control triad 2
-M_design("P_lambda","gene_tetR","CaMV25St") = 1;
+M_design("P_lambda","gene_tetR","CaMV35St") = 1;
 
 *control triad 3
-M_design("P_tet","gene_araC","CaMV25St") = 1;
+M_design("P_tet","gene_araC","CaMV35St") = 1;
 
 *reporter triad 1 
 M_design("P_RM","gene_GFP","HSPt") = 1;

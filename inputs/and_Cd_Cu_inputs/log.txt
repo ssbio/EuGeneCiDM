@@ -1,5 +1,5 @@
 
-Number of promotors: 20
+Number of promoters: 20
 Number of transcripts: 6
 Number of terminators: 3
 Number of enzymes: 6

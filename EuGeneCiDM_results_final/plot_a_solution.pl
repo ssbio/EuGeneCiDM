@@ -13,8 +13,8 @@ use Excel::Writer::XLSX;
 
 #inputs of the desired logic gate and solution number
 
-my $gate = "Cu_nimply_Zn";
-my $soln_num = 11;
+my $gate = "Cd_nimply_Cu";
+my $soln_num = 0;
 
 #set up to read the information
 open(STATEDATA, 'circuit_state_'.$gate.'.csv') or die "Could not open input file, reason: $!\n";

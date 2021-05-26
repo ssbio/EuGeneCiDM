@@ -9,7 +9,7 @@ use strict;
 #Since these files were originally built for human reading, but very difficult
 #when we get into dozens of solutions
 
-my $gate = "half_adder_Cd_Cu";
+my $gate = "Cd_nimply_Cu";
 
 printf "\nresult for gate: %s\n", $gate;
 
@@ -316,20 +316,6 @@ for(my $a = 0; $a <= $#solns; $a++) {
 		#save the design
 		$soln_design{$num} = $design;
 		
-		push @num_cust, $cust_tally;
-		
-		if($cust_tally > 0) {
-			
-			$num_cust_solns++;
-			
-		}
-		
-		if($cust_tally > 1) {
-			
-			$two_plus_cust++;
-			
-		}
-		
 	} elsif ($soln_lines[0] =~ /No remaining solutions/) {
 		
 		#line 4 (element 3) will have the solve time
@@ -419,9 +405,6 @@ foreach my $key (keys %size_tallies) {
 	
 }
 
-my $perc_cust = ($num_cust_solns / $total_solns) * 100;
-my $perc_two = ($two_plus_cust / $total_solns) * 100;
-
 #lets now do some basic reporting to make sure 
 printf "\n\nNumber of solutions: %s\n\n", $total_solns;
 printf "minimum time to solution: %s\n", $min_time; 
@@ -432,8 +415,6 @@ printf "maximum size: %s\n", $max_size;
 printf "most common solution size: %s\n", $mode_soln_size;
 printf "minimum objective value: %s (soln #%s)\n", $min_obj, $min_obj_soln;
 printf "maximum objective value: %s (soln #%s)\n", $max_obj, $max_obj_soln;
-printf "number using 1+ custom proteins: %s (%s%%)\n", $num_cust_solns, $perc_cust;
-printf "number using 2+ custom proteins: %s (%s%%)\n", $two_plus_cust, $perc_two;
 printf "\nmodel status tallies: \n";
 
 foreach my $key (keys %model_tallies) {

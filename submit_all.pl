@@ -3,7 +3,7 @@
 #Written by: Wheaton Schroeder
 #Latest Version: 04/26/2021
 
-#Written to more quickly submit all "real" circuit solvers for EuGeneCiD/S quickly
+#Written to more quickly submit all "real" circuit solvers for EuGeneCiD/M quickly
 
 #AND
 printf "real_and_Cd_Cu: ";

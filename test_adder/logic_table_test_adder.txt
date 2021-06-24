@@ -1,0 +1,87 @@
+/
+
+/*L1 L2 L3 ligands present condition*/
+'L1'.'L2'.'L3'.'GFP' 1
+'L1'.'L3'.'L2'.'GFP' 1
+'L2'.'L1'.'L3'.'GFP' 1
+'L2'.'L3'.'L1'.'GFP' 1
+'L3'.'L1'.'L2'.'GFP' 1
+'L3'.'L2'.'L1'.'GFP' 1
+'L1'.'L2'.'L3'.'mKO' 1
+'L1'.'L3'.'L2'.'mKO' 1
+'L2'.'L1'.'L3'.'mKO' 1
+'L2'.'L3'.'L1'.'mKO' 1
+'L3'.'L1'.'L2'.'mKO' 1
+'L3'.'L2'.'L1'.'mKO' 1
+
+/*L1 L2 ligands present condition*/
+'L1'.'L2'.'L1'.'mKO' 1
+'L1'.'L2'.'L2'.'mKO' 1
+'L1'.'L2'.'none'.'mKO' 1
+'L1'.'L1'.'L2'.'mKO' 1
+'L1'.'none'.'L2'.'mKO' 1
+'L2'.'L1'.'L1'.'mKO' 1
+'L2'.'L1'.'L2'.'mKO' 1
+'L2'.'L1'.'none'.'mKO' 1
+'L2'.'L2'.'L1'.'mKO' 1
+'L2'.'none'.'L1'.'mKO' 1
+'none'.'L1'.'L2'.'mKO' 1
+'none'.'L2'.'L1'.'mKO' 1
+
+/*L1 L3 ligands present condition*/
+'L1'.'L3'.'L1'.'mKO' 1
+'L1'.'L3'.'L3'.'mKO' 1
+'L1'.'L3'.'none'.'mKO' 1
+'L1'.'L1'.'L3'.'mKO' 1
+'L1'.'none'.'L3'.'mKO' 1
+'L3'.'L1'.'L1'.'mKO' 1
+'L3'.'L1'.'L3'.'mKO' 1
+'L3'.'L1'.'none'.'mKO' 1
+'L3'.'L3'.'L1'.'mKO' 1
+'L3'.'none'.'L1'.'mKO' 1
+'none'.'L1'.'L3'.'mKO' 1
+'none'.'L3'.'L1'.'mKO' 1
+
+/*L1 ligands present condition*/
+'L1'.'L1'.'L1'.'GFP' 1
+'L1'.'L1'.'none'.'GFP' 1
+'L1'.'none'.'L1'.'GFP' 1
+'L1'.'none'.'none'.'GFP' 1
+'none'.'L1'.'L1'.'GFP' 1
+'none'.'L1'.'none'.'GFP' 1
+'none'.'none'.'L1'.'GFP' 1
+
+/*L2 L3 ligands present condition*/
+'L2'.'L3'.'L2'.'mKO' 1
+'L2'.'L3'.'L3'.'mKO' 1
+'L2'.'L3'.'none'.'mKO' 1
+'L2'.'L2'.'L3'.'mKO' 1
+'L2'.'none'.'L3'.'mKO' 1
+'L3'.'L2'.'L2'.'mKO' 1
+'L3'.'L2'.'L3'.'mKO' 1
+'L3'.'L2'.'none'.'mKO' 1
+'L3'.'L3'.'L2'.'mKO' 1
+'L3'.'none'.'L2'.'mKO' 1
+'none'.'L2'.'L3'.'mKO' 1
+'none'.'L3'.'L2'.'mKO' 1
+
+/*L2 ligands present condition*/
+'L2'.'L2'.'L2'.'GFP' 1
+'L2'.'L2'.'none'.'GFP' 1
+'L2'.'none'.'L2'.'GFP' 1
+'L2'.'none'.'none'.'GFP' 1
+'none'.'L2'.'L2'.'GFP' 1
+'none'.'L2'.'none'.'GFP' 1
+'none'.'none'.'L2'.'GFP' 1
+
+/*L3 ligands present condition*/
+'L3'.'L3'.'L3'.'GFP' 1
+'L3'.'L3'.'none'.'GFP' 1
+'L3'.'none'.'L3'.'GFP' 1
+'L3'.'none'.'none'.'GFP' 1
+'none'.'L3'.'L3'.'GFP' 1
+'none'.'L3'.'none'.'GFP' 1
+'none'.'none'.'L3'.'GFP' 1
+
+/*none ligands present condition*/
+/

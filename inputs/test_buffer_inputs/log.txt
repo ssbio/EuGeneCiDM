@@ -1,0 +1,16 @@
+
+Number of promotors: 33
+Number of transcripts: 13
+Number of terminators: 10
+Number of enzymes: 13
+Number of ligands: 3
+
+row #1 present ligands: L1 
+enzyme response: GFP 
+condition string: 'L1'.'GFP' 1
+found 'L1'
+
+row #2 present ligands: none
+desired to have no enzyme response
+
+max time: 10

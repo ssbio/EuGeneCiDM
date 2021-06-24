@@ -1,0 +1,14 @@
+/
+'gene_A'.'A' 1
+'gene_B'.'B' 1
+'gene_C'.'C' 1
+'gene_D'.'D' 1
+'gene_E'.'E' 1
+'gene_F'.'F' 1
+'gene_G'.'G' 1
+'gene_H'.'H' 1
+'gene_TagBFP'.'TagBFP' 1
+'gene_mKO'.'mKO' 1
+'gene_GFP'.'GFP' 1
+'gene_mCherry'.'mCherry' 1
+/

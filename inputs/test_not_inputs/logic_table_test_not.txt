@@ -1,0 +1,7 @@
+/
+
+/*L1 ligands present condition*/
+
+/*none ligands present condition*/
+'none'.'GFP' 1
+/

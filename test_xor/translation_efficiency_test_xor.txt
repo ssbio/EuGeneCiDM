@@ -1,0 +1,15 @@
+/
+'gene_A' 2
+'gene_B' 2
+'gene_C' 2
+'gene_D' 2
+'gene_E' 2
+'gene_F' 2
+'gene_G' 2
+'gene_H' 2
+'gene_I' 2
+'gene_TagBFP' 2
+'gene_mKO' 2
+'gene_GFP' 2
+'gene_mCherry' 2
+/

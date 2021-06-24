@@ -6,4 +6,4 @@
 #SBATCH --error=job.%J.err
 #SBATCH --output=job.%J.out
 module load gams
-gams real_and_Cu_Zn/EuGeneCiDM_buffer_Cd.gms
+gams buffer_Cd/EuGeneCiDM_buffer_Cd.gms

@@ -21,7 +21,7 @@
 *
 *Code Authors: Wheaton L. Schroeder and Anna Baber
 *Latest Version: Version 4.0
-*Version Date: 05/20/2021
+*Version Date: 06/24/2021
 *
 ******************************************************************************************************************************
 
@@ -44,31 +44,31 @@ OPTIONS
 SETS
 
 	A					set of all molecules includes proteins ligands promotors ribosome binding sites and transcripts
-$include "and_Cu_Zn/all_molecules_buffer_Cd.txt"
+$include "buffer_Cd/all_molecules_buffer_Cd.txt"
 
 	J(A)				set of protein coding regions (transcripts)
-$include "and_Cu_Zn/transcripts_buffer_Cd.txt"
+$include "buffer_Cd/transcripts_buffer_Cd.txt"
 
 	E(A)				set of proteins enzymes or polypeptides in the model
-$include "and_Cu_Zn/enzymes_buffer_Cd.txt"
+$include "buffer_Cd/enzymes_buffer_Cd.txt"
 
 	P					set of promotors
-$include "and_Cu_Zn/promoters_buffer_Cd.txt"
+$include "buffer_Cd/promoters_buffer_Cd.txt"
 
 	Ed(E)				set of proteins which are desired to be the response signal to ligand signals
-$include "and_Cu_Zn/desired_enzymes_buffer_Cd.txt"
+$include "buffer_Cd/desired_enzymes_buffer_Cd.txt"
  
 	L1(A)				set of ligands
-$include "and_Cu_Zn/Ligands_buffer_Cd.txt"
+$include "buffer_Cd/Ligands_buffer_Cd.txt"
 
 	Ld(L1)				set of ligands for which a response is desired
-$include "and_Cu_Zn/desired_ligands_buffer_Cd.txt"
+$include "buffer_Cd/desired_ligands_buffer_Cd.txt"
 
 	T					set of terminators
-$include "and_Cu_Zn/terminators_buffer_Cd.txt"
+$include "buffer_Cd/terminators_buffer_Cd.txt"
 
 	tau					set of time values
-$include "and_Cu_Zn/time_set_buffer_Cd.txt"
+$include "buffer_Cd/time_set_buffer_Cd.txt"
 
 	big_set /0*1000/	set with large number of arbitrary elements
 
@@ -76,10 +76,8 @@ $include "and_Cu_Zn/time_set_buffer_Cd.txt"
 
 ;
 
-alias(L2,L1);
 alias(A1,A);
 alias(J1,J);
-alias(Ld1,Ld);
 alias(E1,E);
 alias(E2,E);
 
@@ -88,28 +86,28 @@ alias(E2,E);
 PARAMETERS
 
 	S(P)						strenth of promotor
-$include "and_Cu_Zn/promoter_strength_buffer_Cd.txt"
+$include "buffer_Cd/promoter_strength_buffer_Cd.txt"
 
 	eta(J)						efficiency of ribosome binding sites
-$include "and_Cu_Zn/translation_efficiency_buffer_Cd.txt"
+$include "buffer_Cd/translation_efficiency_buffer_Cd.txt"
 
 	Z(P)						normal state of promotor 1 of normally on 0 otherwise
-$include "and_Cu_Zn/promoter_normal_state_buffer_Cd.txt"
+$include "buffer_Cd/promoter_normal_state_buffer_Cd.txt"
 
 	Zeta(E)						normal state of proteins 1 if normally active 0 otherwise
-$include "and_Cu_Zn/protein_normal_state_buffer_Cd.txt"
+$include "buffer_Cd/protein_normal_state_buffer_Cd.txt"
 
 	I(P,A)						promotor molecule interaction -1 if protein j represses promotor p 0 if no effect 1 if activation
-$include "and_Cu_Zn/promoter_ligand_interactions_buffer_Cd.txt"
+$include "buffer_Cd/promoter_ligand_interactions_buffer_Cd.txt"
 	
 	B(E,A)						protein molecule interaction -1 if molecule A represses enzyme E 0 if no effect 1 if activation
-$include "and_Cu_Zn/protein_ligand_interactions_buffer_Cd.txt"
+$include "buffer_Cd/protein_ligand_interactions_buffer_Cd.txt"
 
 	G(T)						strength of terminators
-$include "and_Cu_Zn/terminator_strength_buffer_Cd.txt"
+$include "buffer_Cd/terminator_strength_buffer_Cd.txt"
 
 	R(E)						enzyme degradation rate
-$include "and_Cu_Zn/protein_degradation_buffer_Cd.txt"
+$include "buffer_Cd/protein_degradation_buffer_Cd.txt"
 
 	Np_max						maximum number of times any promotor can be used in a circuit design
 	
@@ -122,21 +120,21 @@ $include "and_Cu_Zn/protein_degradation_buffer_Cd.txt"
 	Max_size_allow				maximum circuit size allowed incremented with solutions
 
 	theta(E)					threshold for concentration needed for enzymes to be active 
-$include "and_Cu_Zn/expression_threshold_buffer_Cd.txt"
+$include "buffer_Cd/expression_threshold_buffer_Cd.txt"
 
-	lambda(Ld,Ld1,Ed)			gives the values of W that should exist for desired proteins responses to desired ligands
-$include "and_Cu_Zn/logic_table_buffer_Cd.txt"
+	lambda(Ld,Ed)			gives the values of W that should exist for desired proteins responses to desired ligands
+$include "buffer_Cd/logic_table_buffer_Cd.txt"
 
 	rho(J,E)					maps transcripts to enzymes
-$include "and_Cu_Zn/trans_to_enzyme_buffer_Cd.txt"
+$include "buffer_Cd/trans_to_enzyme_buffer_Cd.txt"
 
 	sigma(A,A)					determines if enzyme E is the same as enzyme E
-$include "and_Cu_Zn/self_buffer_Cd.txt"
+$include "buffer_Cd/self_buffer_Cd.txt"
 
 	temp						temporarily store a number
 	
 	F(P)						promotor leakiness because usually impossible to completely stop production of an enzyme
-$include "and_Cu_Zn/promoter_leakiness_buffer_Cd.txt"
+$include "buffer_Cd/promoter_leakiness_buffer_Cd.txt"
 
 	iter						number of iterations for attempting solution
 	
@@ -144,9 +142,9 @@ $include "and_Cu_Zn/promoter_leakiness_buffer_Cd.txt"
 	
 	iter_max					maximum number of iterations
 	
-	ECTrans(E,L1,L2) 			enzyme concentration transfered between time points
+	ECTrans(E,L1) 				enzyme concentration transfered between time points
 	
-	RNATrans(J,T,L1,L2)			RNA transcript level transfered between time points 
+	RNATrans(J,T,L1)			RNA transcript level transfered between time points 
 	
 	pastMs(P,J,T,big_set)		array that stores the past m values for int cut
 	
@@ -157,10 +155,10 @@ $include "and_Cu_Zn/promoter_leakiness_buffer_Cd.txt"
 	num_solns					the number of the previous solutions 
 	
 	H(P,A)						strength of protein and ligand interactions with promoters
-$include "and_Cu_Zn/promoter_ligand_strength_buffer_Cd.txt"
+$include "buffer_Cd/promoter_ligand_strength_buffer_Cd.txt"
 	
 	Q(E,A) 						strength of ligand-protein interactions
-$include "and_Cu_Zn/protein_ligand_strength_buffer_Cd.txt"
+$include "buffer_Cd/protein_ligand_strength_buffer_Cd.txt"
 
 	done						used to exit loop when needed
 	
@@ -173,10 +171,10 @@ $include "and_Cu_Zn/protein_ligand_strength_buffer_Cd.txt"
 	first_time					stores if solving for the first timepoint currently eg where Ms are not fixed
 	
 	Ed_val(E)					set of ligands for which a response is desired value of 1 if a desired ligand zero otherwise
-$include "and_Cu_Zn/desired_enzymes_buffer_Cd_vals.txt"
+$include "buffer_Cd/desired_enzymes_buffer_Cd_vals.txt"
 
 	Ld_val(L1)					set of ligands for which a response is desired value of 1 if a desired ligand zero otherwise
-$include "and_Cu_Zn/desired_ligands_buffer_Cd_vals.txt"
+$include "buffer_Cd/desired_ligands_buffer_Cd_vals.txt"
 
 ;
 
@@ -185,8 +183,8 @@ max_solns = 1000;
 
 /*give initial condition values for enzyme and RNA carry-over*/
 /*note: works a bit like an ODE now...*/
-ECTrans(E,L1,L2) = 0;
-RNATrans(J,T,L1,L2) = 0;
+ECTrans(E,L1) = 0;
+RNATrans(J,T,L1) = 0;
 
 SCALAR epsilon /1E-4/;
 SCALAR V /1E4/;
@@ -224,15 +222,15 @@ VARIABLES
 	Z_M							objective variable for EUGENECIM
 	
 	/*these variables are shared by CID and CIS formulations*/
-	alpha(P,L1,L2)				alpha determies net effect of all inhibition and activation effects on the given promotor
-	gamma(E,L1,L2)				gamma determies net effect of all inhibition and activation effects on the given protein
+	alpha(P,L1)					alpha determies net effect of all inhibition and activation effects on the given promotor
+	gamma(E,L1)					gamma determies net effect of all inhibition and activation effects on the given protein
 
 NONNEGATIVE VARIABLES
 
 	/*these variables are shared by CID and CIS formulations*/
-	C(E,L1,L2)					proxy concentration of protein j subject to ligands
-	phi(J,T,L1,L2)				RNA level
-	xi(P,J,T,L1,L2)				value of deliberate transcription	
+	C(E,L1)						proxy concentration of protein j subject to ligands
+	phi(J,T,L1)					RNA level
+	xi(P,J,T,L1)				value of deliberate transcription	
 	
 	/*Enzyme attribution to other enzymes partial variables*/
 	/*note no longer tracking sign because this might result in sign cancellation*/
@@ -257,12 +255,12 @@ BINARY VARIABLES
 	beta(E,E1)					determines if E and E1 are encoded in the design
 	
 	/*these variables are shared by CID and CIS*/
-	C_plus(E,L1,L2)				determines if the concentration activation threshold is achieved by comparison to Cjt
-	W(E,L1,L2)					determines if the protein is active based on inhibition activation transcription and translation
-	alpha_plus(P,L1,L2)			value of 1 if the promotor is active value of zero otherwise
-	gamma_plus(E,L1,L2)			value of 1 if the protein is active value of zero otherwise
-	omega(E,L1,L2)				value of 1 if enzyme protein or polypeptide E is produced 0 otherwise
-	kappa(E,L1,L2)				value of 1 is protein is active (e.g. not inhibited or is activated) 0 otherwise
+	C_plus(E,L1)				determines if the concentration activation threshold is achieved by comparison to Cjt
+	W(E,L1)						determines if the protein is active based on inhibition activation transcription and translation
+	alpha_plus(P,L1)			value of 1 if the promotor is active value of zero otherwise
+	gamma_plus(E,L1)			value of 1 if the protein is active value of zero otherwise
+	omega(E,L1)					value of 1 if enzyme protein or polypeptide E is produced 0 otherwise
+	kappa(E,L1)					value of 1 is protein is active (e.g. not inhibited or is activated) 0 otherwise
 
 ;
 
@@ -422,39 +420,39 @@ EQUATIONS
 
 	/*design equations for EuGeneCiD*/
 	obj								objective function
-	act_threshold_0(E,Ld,Ld1)		constraint used to trigger the activation threshold
-	act_threshold_1(E,Ld,Ld1)		constraint used to trigger the activation threshold
-	prot_sum(E,Ld,Ld1)				find the sum of transcript levels for each transcript C
-	trans_sum(J,T,Ld,Ld1)			find the sum of transcript levels for each transcript
+	act_threshold_0(E,Ld)		constraint used to trigger the activation threshold
+	act_threshold_1(E,Ld)		constraint used to trigger the activation threshold
+	prot_sum(E,Ld)				find the sum of transcript levels for each transcript C
+	trans_sum(J,T,Ld)			find the sum of transcript levels for each transcript
 	promotor_limit(P)				limits the number of times a promotor can be used in a given circuit
 	trans_limit(J)					limits the number of times a protein coding region can be used in a given circuit
 	term_limit(T)					limits the number of times a terminator can be used in a given circuit
 	design_limit					limits the number of protein promotor RBS combinations in given circuit
 
-	findalpha(P,Ld,Ld1)				find value of alpha 
-	findalpha_sign0(P,Ld,Ld1)		find sign of alpha
-	findalpha_sign1(P,Ld,Ld1)		find sign of alpha
+	findalpha(P,Ld)				find value of alpha 
+	findalpha_sign0(P,Ld)		find sign of alpha
+	findalpha_sign1(P,Ld)		find sign of alpha
 	
-	transcribed0(P,J,T,Ld,Ld1)		Determines if j is transcribed by p in the current conditions
-	transcribed1(P,J,T,Ld,Ld1)		Determines if j is transcribed by p in the current conditions
-	transcribed2(P,J,T,Ld,Ld1)		Determines if j is transcribed by p in the current conditions
+	transcribed0(P,J,T,Ld)		Determines if j is transcribed by p in the current conditions
+	transcribed1(P,J,T,Ld)		Determines if j is transcribed by p in the current conditions
+	transcribed2(P,J,T,Ld)		Determines if j is transcribed by p in the current conditions
 	
-	produced0(E,Ld,Ld1)				determines if a polypeptide is produced
-	produced1(E,Ld,Ld1)				determines if a polypeptide is produced
+	produced0(E,Ld)				determines if a polypeptide is produced
+	produced1(E,Ld)				determines if a polypeptide is produced
 	
-	findgamma(E,Ld,Ld1)				Find gamma
-	findgamma_sign0(E,Ld,Ld1)		find value of gamma_plus
-	findgamma_sign1(E,Ld,Ld1)		find value of gamma_plus
+	findgamma(E,Ld)				Find gamma
+	findgamma_sign0(E,Ld)		find value of gamma_plus
+	findgamma_sign1(E,Ld)		find value of gamma_plus
 	
-	prot_could_act0(E,Ld,Ld1)		determintes if protein could be active based on ligand inputs and other active protiens
-	prot_could_act1(E,Ld,Ld1)		determintes if protein could be active based on ligand inputs and other active protiens
-	prot_could_act2(E,Ld,Ld1)		determintes if protein could be active based on ligand inputs and other active protiens
+	prot_could_act0(E,Ld)		determintes if protein could be active based on ligand inputs and other active protiens
+	prot_could_act1(E,Ld)		determintes if protein could be active based on ligand inputs and other active protiens
+	prot_could_act2(E,Ld)		determintes if protein could be active based on ligand inputs and other active protiens
 	
-	prot_is_act0(E,Ld,Ld1)			determines if protein is active based on inhibition activation and concentration
-	prot_is_act1(E,Ld,Ld1)			determines if protein is active based on inhibition activation and concentration
-	prot_is_act2(E,Ld,Ld1)			determines if protein is active based on inhibition activation and concentration
+	prot_is_act0(E,Ld)			determines if protein is active based on inhibition activation and concentration
+	prot_is_act1(E,Ld)			determines if protein is active based on inhibition activation and concentration
+	prot_is_act2(E,Ld)			determines if protein is active based on inhibition activation and concentration
 	
-	sat_lambda(Ld,Ld1,Ed)			ensures solution satisfies the logic table
+	sat_lambda(Ld,Ed)			ensures solution satisfies the logic table
 	
 	intcut(big_set)					integer cut to prevent repeat solutions
 	
@@ -493,22 +491,22 @@ EQUATIONS
 	/*add explicit constraints to see if this increases speed*/
 	
 	explicit_0(E)
-	explicit_1(E,Ld,Ld1)
-	explicit_2(E,Ld,Ld1)
-	explicit_3(E,Ld,Ld1)	
-	explicit_4(E,Ld,Ld1)	
-	explicit_5(E,Ld,Ld1)	
+	explicit_1(E,Ld)
+	explicit_2(E,Ld)
+	explicit_3(E,Ld)	
+	explicit_4(E,Ld)	
+	explicit_5(E,Ld)	
 	
 	/*simulation equations for EuGeneCiM*/
 	obj_M							objective function
-	prot_conc_M(E,Ld,Ld1)			protein concentration
-	trans_level_M(J,T,Ld,Ld1)		find the transcript level for each transcript
+	prot_conc_M(E,Ld)			protein concentration
+	trans_level_M(J,T,Ld)		find the transcript level for each transcript
 	
-	produced0_M(E,Ld,Ld1)			determines if a polypeptide is produced
-	produced1_M(E,Ld,Ld1)			determines if a polypeptide is produced
+	produced0_M(E,Ld)			determines if a polypeptide is produced
+	produced1_M(E,Ld)			determines if a polypeptide is produced
 	
-	act_threshold_0_M(E,Ld,Ld1)		constraint used to trigger the activation threshold
-	act_threshold_1_M(E,Ld,Ld1)		constraint used to trigger the activation threshold
+	act_threshold_0_M(E,Ld)		constraint used to trigger the activation threshold
+	act_threshold_1_M(E,Ld)		constraint used to trigger the activation threshold
 	
 	
 ;
@@ -516,7 +514,7 @@ EQUATIONS
 *********************************************** EUGENECID ********************************************************************
 
 *objective function
-obj..								Z_D =e= sum(Ed, sum(Ld, sum(Ld1, C(Ed,Ld,Ld1) * lambda(Ld,Ld1,Ed) - C(Ed,Ld,Ld1) * (1 - lambda(Ld,Ld1,Ed)))));
+obj..								Z_D =e= sum(Ed, sum(Ld, C(Ed,Ld) * lambda(Ld,Ed) - C(Ed,Ld) * (1 - lambda(Ld,Ed))));
 
 *limits the size of the designed circuit
 promotor_limit(P)..					sum(J, sum(T, M(P,J,T))) =l= Np_max;
@@ -525,47 +523,47 @@ term_limit(T)..						sum(P, sum(J, M(P,J,T))) =l= Nt_max;
 design_limit..						sum(P, sum(J, sum(T, M(P,J,T)))) =l= Ncircuit_max;
 
 *determines total effect of present activator and inhibitors on promotors
-findalpha(P,Ld,Ld1)..				alpha(P,Ld,Ld1) =e= Z(P) + sum(E, (W(E,Ld,Ld1) * I(P,E) * H(P,E))) + I(P,Ld) * H(P,Ld) + I(P,Ld1) * H(P,Ld1) - (I(P,Ld1) * H(P,Ld1) * sigma(Ld,Ld1));
-findalpha_sign0(P,Ld,Ld1)..			alpha(P,Ld,Ld1) =g= epsilon * alpha_plus(P,Ld,Ld1) - V * (1 - alpha_plus(P,Ld,Ld1));
-findalpha_sign1(P,Ld,Ld1)..			alpha(P,Ld,Ld1) =l= V * alpha_plus(P,Ld,Ld1);
+findalpha(P,Ld)..					alpha(P,Ld) =e= Z(P) + sum(E, (W(E,Ld) * I(P,E) * H(P,E))) + I(P,Ld) * H(P,Ld);
+findalpha_sign0(P,Ld)..				alpha(P,Ld) =g= epsilon * alpha_plus(P,Ld) - V * (1 - alpha_plus(P,Ld));
+findalpha_sign1(P,Ld)..				alpha(P,Ld) =l= V * alpha_plus(P,Ld);
 
 *determine how much transcript J is deliberately transcribed from terminator
-transcribed0(P,J,T,Ld,Ld1)..		xi(P,J,T,Ld,Ld1) =l= S(P) * M(P,J,T);
-transcribed1(P,J,T,Ld,Ld1)..		xi(P,J,T,Ld,Ld1) =l= S(P) * alpha_plus(P,Ld,Ld1);
-transcribed2(P,J,T,Ld,Ld1)..		xi(P,J,T,Ld,Ld1) =g= S(P) * (M(P,J,T) + alpha_plus(P,Ld,Ld1) - 1);
+transcribed0(P,J,T,Ld)..			xi(P,J,T,Ld) =l= S(P) * M(P,J,T);
+transcribed1(P,J,T,Ld)..			xi(P,J,T,Ld) =l= S(P) * alpha_plus(P,Ld);
+transcribed2(P,J,T,Ld)..			xi(P,J,T,Ld) =g= S(P) * (M(P,J,T) + alpha_plus(P,Ld) - 1);
 
 *make sure that enzyme is noted as being produced if it does have a non-zero concentration
-produced0(E,Ld,Ld1)..				omega(E,Ld,Ld1) =l= V * C(E,Ld,Ld1);
-produced1(E,Ld,Ld1)..				omega(E,Ld,Ld1) =g= epsilon * C(E,Ld,Ld1);
+produced0(E,Ld)..					omega(E,Ld) =l= V * C(E,Ld);
+produced1(E,Ld)..					omega(E,Ld) =g= epsilon * C(E,Ld);
 
 *determine the transcript level
-trans_sum(J,T,Ld,Ld1)..				phi(J,T,Ld,Ld1) =e= sum(P, (xi(P,J,T,Ld,Ld1) + M(P,J,T) * F(P)) * ((0.5) ** (1 / (G(T) + epsilon))));
+trans_sum(J,T,Ld)..					phi(J,T,Ld) =e= sum(P, (xi(P,J,T,Ld) + M(P,J,T) * F(P)) * ((0.5) ** (1 / (G(T) + epsilon))));
 
 *determine protein concentration as a function of transcription and translation efficiency
 *adds that produced from the previous time points RNA with that already present from previous time point
-prot_sum(E,Ld,Ld1)..				C(E,Ld,Ld1) =e= sum(J, (rho(J,E) * eta(J) * sum(T, phi(J,T,Ld,Ld1))) * ((0.5) ** (1 / (R(E) + epsilon))));
+prot_sum(E,Ld)..					C(E,Ld) =e= sum(J, (rho(J,E) * eta(J) * sum(T, phi(J,T,Ld))) * ((0.5) ** (1 / (R(E) + epsilon))));
 
 *determine if concentration is at the level necessary for activity
-act_threshold_0(E,Ld,Ld1)..			(theta(E) + epsilon) * C_plus(E,Ld,Ld1) =l= C(E,Ld,Ld1);
-act_threshold_1(E,Ld,Ld1)..			C(E,Ld,Ld1) =l= (V - (theta(E) - epsilon)) * C_plus(E,Ld,Ld1) + (theta(E) - epsilon);
+act_threshold_0(E,Ld)..				(theta(E) + epsilon) * C_plus(E,Ld) =l= C(E,Ld);
+act_threshold_1(E,Ld)..				C(E,Ld) =l= (V - (theta(E) - epsilon)) * C_plus(E,Ld) + (theta(E) - epsilon);
 
 *get the value of gamma
-findgamma(E,Ld,Ld1)..				gamma(E,Ld,Ld1) =e= Zeta(E) + sum(E1, W(E1,Ld,Ld1) * B(E,E1) * Q(E,E1)) + B(E,Ld) * Q(E,Ld) + B(E,Ld1) * Q(E,Ld1) - B(E,Ld1) * Q(E,Ld1) * sigma(Ld,Ld1);
-findgamma_sign0(E,Ld,Ld1)..			gamma(E,Ld,Ld1) =g= epsilon * gamma_plus(E,Ld,Ld1) - V * (1 - gamma_plus(E,Ld,Ld1));
-findgamma_sign1(E,Ld,Ld1)..			gamma(E,Ld,Ld1) =l= V * gamma_plus(E,Ld,Ld1);
+findgamma(E,Ld)..					gamma(E,Ld) =e= Zeta(E) + sum(E1, W(E1,Ld) * B(E,E1) * Q(E,E1)) + B(E,Ld) * Q(E,Ld);
+findgamma_sign0(E,Ld)..				gamma(E,Ld) =g= epsilon * gamma_plus(E,Ld) - V * (1 - gamma_plus(E,Ld));
+findgamma_sign1(E,Ld)..				gamma(E,Ld) =l= V * gamma_plus(E,Ld);
 
 *determines if the protein is produced
-prot_could_act0(E,Ld,Ld1)..			kappa(E,Ld,Ld1) =l= omega(E,Ld,Ld1);
-prot_could_act1(E,Ld,Ld1)..			kappa(E,Ld,Ld1) =l= gamma_plus(E,Ld,Ld1);
-prot_could_act2(E,Ld,Ld1)..			kappa(E,Ld,Ld1) =g= omega(E,Ld,Ld1) + gamma_plus(E,Ld,Ld1) - 1;
+prot_could_act0(E,Ld)..				kappa(E,Ld) =l= omega(E,Ld);
+prot_could_act1(E,Ld)..				kappa(E,Ld) =l= gamma_plus(E,Ld);
+prot_could_act2(E,Ld)..				kappa(E,Ld) =g= omega(E,Ld) + gamma_plus(E,Ld) - 1;
 
 *if protein is both produced and is at the necessary concentration threshold for activation then it is active
-prot_is_act0(E,Ld,Ld1)..			W(E,Ld,Ld1) =l= kappa(E,Ld,Ld1);
-prot_is_act1(E,Ld,Ld1)..			W(E,Ld,Ld1) =l= C_plus(E,Ld,Ld1);
-prot_is_act2(E,Ld,Ld1)..			W(E,Ld,Ld1) =g= kappa(E,Ld,Ld1) + C_plus(E,Ld,Ld1) - 1;
+prot_is_act0(E,Ld)..				W(E,Ld) =l= kappa(E,Ld);
+prot_is_act1(E,Ld)..				W(E,Ld) =l= C_plus(E,Ld);
+prot_is_act2(E,Ld)..				W(E,Ld) =g= kappa(E,Ld) + C_plus(E,Ld) - 1;
 
 *need to constrain such that the logic table is satisfied
-sat_lambda(Ld,Ld1,Ed)..				W(Ed,Ld,Ld1) =e= lambda(Ld,Ld1,Ed);
+sat_lambda(Ld,Ed)..					W(Ed,Ld) =e= lambda(Ld,Ed);
 
 *this is the integer cut just on promotors and transcripts since terminators more of a fine tune control not worried about repeat pairs with them
 intcut(soln_set)..					sum(P,sum(J,sum(T,pastMs(P,J,T,soln_set)) * sum(T,M(P,J,T)))) =l= sum(P,sum(J,sum(T,pastMs(P,J,T,soln_set)))) - 1;
@@ -619,31 +617,31 @@ attribution_21(E,E1)..				nu_prime(E,E1) =g= sigma(E,E1) - 1;
 attribution_22(E,E1)..				L(E) =l= sum(Ed, nu_prime(Ed,E)) + Ed_val(E);
 
 explicit_0(E)..						L(E) =g= Ed_val(E);
-explicit_1(E,Ld,Ld1)..				W(E,Ld,Ld1) =l= L(E);
-explicit_2(E,Ld,Ld1)..				kappa(E,Ld,Ld1) =l= L(E);
-explicit_3(E,Ld,Ld1)..				omega(E,Ld,Ld1) =l= L(E);
-explicit_4(E,Ld,Ld1)..				C(E,Ld,Ld1) =l= V * L(E);
-explicit_5(E,Ld,Ld1)..				C_plus(E,Ld,Ld1) =l= L(E);
+explicit_1(E,Ld)..					W(E,Ld) =l= L(E);
+explicit_2(E,Ld)..					kappa(E,Ld) =l= L(E);
+explicit_3(E,Ld)..					omega(E,Ld) =l= L(E);
+explicit_4(E,Ld)..					C(E,Ld) =l= V * L(E);
+explicit_5(E,Ld)..					C_plus(E,Ld) =l= L(E);
 
 *********************************************** EUGENECIM ********************************************************************
 
 *objective function
-obj_M..								Z_M =e= sum(Ed, sum(Ld, sum(Ld1, C(Ed,Ld,Ld1))));
+obj_M..								Z_M =e= sum(Ed, sum(Ld, C(Ed,Ld)));
 
 *determine the transcript level
-trans_level_M(J,T,Ld,Ld1)..			phi(J,T,Ld,Ld1) =e= sum(P, M_design(P,J,T) * alpha_plus(P,Ld,Ld1) * S(P) + M_design(P,J,T) * F(P));
+trans_level_M(J,T,Ld)..			phi(J,T,Ld) =e= sum(P, M_design(P,J,T) * alpha_plus(P,Ld) * S(P) + M_design(P,J,T) * F(P));
 
 *determine protein concentration as a function of transcription and translation efficiency
 *adds that produced from the previous time points RNA with that already present from previous time point
-prot_conc_M(E,Ld,Ld1)..				C(E,Ld,Ld1) =e= sum(J, rho(J,E) * eta(J) * sum(T, RNATrans(J,T,Ld,Ld1)));
+prot_conc_M(E,Ld)..				C(E,Ld) =e= sum(J, rho(J,E) * eta(J) * sum(T, RNATrans(J,T,Ld)));
 
 *make sure that enzyme is noted as being produced if it does have a non-zero concentration
-produced0_M(E,Ld,Ld1)..				omega(E,Ld,Ld1) =l= V * ECTrans(E,Ld,Ld1);
-produced1_M(E,Ld,Ld1)..				omega(E,Ld,Ld1) =g= epsilon * ECTrans(E,Ld,Ld1);
+produced0_M(E,Ld)..				omega(E,Ld) =l= V * ECTrans(E,Ld);
+produced1_M(E,Ld)..				omega(E,Ld) =g= epsilon * ECTrans(E,Ld);
 
 *determine if concentration is at the level necessary for activity
-act_threshold_0_M(E,Ld,Ld1)..		(theta(E) + epsilon) * C_plus(E,Ld,Ld1) =l= ECTrans(E,Ld,Ld1);
-act_threshold_1_M(E,Ld,Ld1)..		ECTrans(E,Ld,Ld1) =l= (V - (theta(E) - epsilon)) * C_plus(E,Ld,Ld1) + (theta(E) - epsilon);
+act_threshold_0_M(E,Ld)..		(theta(E) + epsilon) * C_plus(E,Ld) =l= ECTrans(E,Ld);
+act_threshold_1_M(E,Ld)..		ECTrans(E,Ld) =l= (V - (theta(E) - epsilon)) * C_plus(E,Ld) + (theta(E) - epsilon);
 
 *********************************************** DEFINE MODELS ****************************************************************
 
@@ -816,7 +814,7 @@ STATES.pw = 32767;
 PUT "GENETIC CIRCUIT BEHAVIOR FOR EACH SOLUTION AT EACH TIME POINT"//;
 
 *make superheader
-PUT "SOLN#","TIME","L1","L2","PROMOTOR BEHAVIOR";
+PUT "SOLN#","TIME","L1","PROMOTOR BEHAVIOR";
 
 *note: need to skip first value so values align after puttin a superheader text
 first_time = 1;
@@ -939,7 +937,7 @@ first_time = 1;
 
 PUT /;
 
-PUT "SOLN#","TIME","L1","L2";
+PUT "SOLN#","TIME","L1";
 
 STATES.pc = 2;
 
@@ -1046,7 +1044,7 @@ PUT '======================================================================='//;
 PUT 'Ligands',system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,'Enzymes'/;
 
 *write the header
-PUT "Ligand 1",system.tab,"Ligand 2",system.tab,system.tab,system.tab;
+PUT "Ligand 1",system.tab,system.tab,system.tab;
 
 LOOP(Ed,
 
@@ -1058,23 +1056,19 @@ PUT /;
 
 *write the logic table lines
 LOOP(Ld,
-
-	LOOP(Ld1,
 	
-		/*write the ligand conditions*/
-		PUT Ld.tl,Ld1.tl;
+	/*write the ligand conditions*/
+	PUT Ld.tl;
 		
-		/*write the desired enzyme response to the system*/
-		LOOP(Ed, 
+	/*write the desired enzyme response to the system*/
+	LOOP(Ed, 
 		
-			PUT lambda(Ld,Ld1,Ed);
-			
-		);
+		PUT lambda(Ld,Ed);
 		
-		/*finish with a newline*/
-		PUT /;
-	
 	);
+	
+	/*finish with a newline*/
+	PUT /;
 	
 );
 
@@ -1239,75 +1233,71 @@ LOOP(big_set$(not done),
 		
 		/*write the variable values at each ligand combination*/
 		LOOP(Ld,
-
-			LOOP(Ld1,
 			
-				PUT "ligand condition: Ld: ",Ld.tl," Ld1: ",Ld1.tl/;
-				PUT "------------------------------------------------------------------------"//;
+			PUT "ligand condition: Ld: ",Ld.tl/;
+			PUT "------------------------------------------------------------------------"//;
+			
+			/*list transcripts produced and their level*/
+			PUT "Transcripts Produced"/;
+			PUT "transcript",system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,"deliberate",system.tab,system.tab,"leaked",system.tab,system.tab,system.tab,"produced",system.tab,system.tab,"degraded",system.tab,system.tab,"Phi"/;
+			
+			LOOP(j,
 				
-				/*list transcripts produced and their level*/
-				PUT "Transcripts Produced"/;
-				PUT "transcript",system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,"deliberate",system.tab,system.tab,"leaked",system.tab,system.tab,system.tab,"produced",system.tab,system.tab,"degraded",system.tab,system.tab,"Phi"/;
-				
-				LOOP(j,
-				
-					/*check if the transcript is used*/
-					IF((sum(P, sum(T, M.l(P,J,T))) ge 1),
+				/*check if the transcript is used*/
+				IF((sum(P, sum(T, M.l(P,J,T))) ge 1),
 					
-						/*if used report on transcript levels from various sources*/
-						PUT j.tl,(sum(P, sum(T, xi.l(P,J,T,Ld,Ld1)))),system.tab,sum(P, sum(T, M.l(P,j,T) * F(P))),system.tab,(sum(T, sum(P, xi.l(P,J,T,Ld,Ld1) + M.l(P,J,T) * F(P)))),system.tab,((sum(T, sum(P, xi.l(P,J,T,Ld,Ld1) + M.l(P,J,T) * F(P)))) - sum(T,sum(P, (xi.l(P,J,T,Ld,Ld1) + M.l(P,J,T) * F(P)) * ((0.5) ** (1 / (G(T) + epsilon)))))),system.tab,(sum(T,phi.l(J,T,Ld,Ld1)))/;
-					
-					);
+					/*if used report on transcript levels from various sources*/
+					PUT j.tl,(sum(P, sum(T, xi.l(P,J,T,Ld)))),system.tab,sum(P, sum(T, M.l(P,j,T) * F(P))),system.tab,(sum(T, sum(P, xi.l(P,J,T,Ld) + M.l(P,J,T) * F(P)))),system.tab,((sum(T, sum(P, xi.l(P,J,T,Ld) + M.l(P,J,T) * F(P)))) - sum(T,sum(P, (xi.l(P,J,T,Ld) + M.l(P,J,T) * F(P)) * ((0.5) ** (1 / (G(T) + epsilon)))))),system.tab,(sum(T,phi.l(J,T,Ld)))/;
 					
 				);
-				
-				PUT //;
-				
-				/*finally output lists of produced and active proteins*/
-				PUT "Proteins Produced:"/;
-				
-				LOOP(E,
-				
-					IF((C.l(E,Ld,Ld1) > 0),
-					
-						PUT E.tl,C.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT //;
-				
-				PUT "Proteins Expressed:"/;
-				
-				LOOP(E,
-				
-					IF((C_plus.l(E,Ld,Ld1) eq 1),
-					
-						PUT E.tl,C_plus.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT //;
-				
-				/*finally output lists of produced and active proteins*/
-				PUT "Active Proteins:"/;
-				
-				LOOP(E,
-				
-					IF((W.l(E,Ld,Ld1) eq 1),
-					
-						PUT E.tl,W.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT ////;
 				
 			);
+			
+			PUT //;
+			
+			/*finally output lists of produced and active proteins*/
+			PUT "Proteins Produced:"/;
+			
+			LOOP(E,
+			
+				IF((C.l(E,Ld) > 0),
+				
+					PUT E.tl,C.l(E,Ld)/;
+				
+				);
+				
+			);
+				
+			PUT //;
+				
+			PUT "Proteins Expressed:"/;
+				
+			LOOP(E,
+				
+				IF((C_plus.l(E,Ld) eq 1),
+					
+					PUT E.tl,C_plus.l(E,Ld)/;
+					
+				);
+				
+			);
+				
+			PUT //;
+				
+			/*finally output lists of produced and active proteins*/
+			PUT "Active Proteins:"/;
+				
+			LOOP(E,
+				
+				IF((W.l(E,Ld) eq 1),
+					
+					PUT E.tl,W.l(E,Ld)/;
+					
+				);
+				
+			);
+			
+			PUT ////;
 			
 		);
 		
@@ -1599,123 +1589,119 @@ LOOP(big_set$(not done),
 
 		/*write the variable values at each ligand combination*/
 		LOOP(Ld,
-
-			LOOP(Ld1,
 			
-				PUT "ligand condition: Ld: ",Ld.tl," Ld1: ",Ld1.tl/;
-				PUT "--------------------------------------------------------------------------"/;
+			PUT "ligand condition: Ld: ",Ld.tl/;
+			PUT "--------------------------------------------------------------------------"/;
 				
-				PUT "promotor variables:"/;
-				PUT "Promotor",system.tab,system.tab,system.tab,"Z(P)",system.tab,system.tab,"sum W*I",system.tab,system.tab,"I(P,L1)",system.tab,system.tab,"I(P,L2)",system.tab,system.tab,"alpha",system.tab,system.tab,"alpha+"/;
+			PUT "promotor variables:"/;
+			PUT "Promotor",system.tab,system.tab,system.tab,"Z(P)",system.tab,system.tab,"sum W*I",system.tab,system.tab,"I(P,L1)",system.tab,system.tab,"alpha",system.tab,system.tab,"alpha+"/;
 				
-				LOOP(P,
+			LOOP(P,
 				
-					PUT P.tl,Z(P),(sum(E, (W.l(E,Ld,Ld1) * I(P,E)))),I(P,Ld),I(P,Ld1),alpha.l(P,Ld,Ld1),alpha_plus.l(P,Ld,Ld1)/;
+				PUT P.tl,Z(P),(sum(E, (W.l(E,Ld) * I(P,E)))),I(P,Ld),alpha.l(P,Ld),alpha_plus.l(P,Ld)/;
 
-				);
+			);
 				
-				PUT //;
+			PUT //;
 				
-				PUT "transcription of transcript J from terminator T:"/;
-				PUT "J",system.tab,system.tab,system.tab,system.tab,"T",system.tab,system.tab,system.tab,system.tab,system.tab,"xi",system.tab,system.tab,system.tab,"leaked",system.tab,system.tab,"degraded",system.tab,"total"/;
+			PUT "transcription of transcript J from terminator T:"/;
+			PUT "J",system.tab,system.tab,system.tab,system.tab,"T",system.tab,system.tab,system.tab,system.tab,system.tab,"xi",system.tab,system.tab,system.tab,"leaked",system.tab,system.tab,"degraded",system.tab,"total"/;
 				
-				LOOP(J,
-						
-					LOOP(T,
-						
-						PUT J.tl,system.tab,T.tl,sum(P,xi.l(P,J,T,Ld,Ld1)),(sum(P, M.l(P,J,T) * F(P))),(sum(P, xi.l(P,J,T,Ld,Ld1) + M.l(P,J,T) * F(P)) * (1 - (0.5) ** (1 / (G(T) + epsilon)))),phi.l(J,T,Ld,Ld1)/;
+			LOOP(J,
 					
-					);
-						
-				);	
-				
-				PUT //;
-				
-				PUT "transcript variable (phi):"/;
-				PUT "transcript",system.tab,system.tab,system.tab;
-				
 				LOOP(T,
-				
-					PUT T.tl;
+					
+					PUT J.tl,system.tab,T.tl,sum(P,xi.l(P,J,T,Ld)),(sum(P, M.l(P,J,T) * F(P))),(sum(P, xi.l(P,J,T,Ld) + M.l(P,J,T) * F(P)) * (1 - (0.5) ** (1 / (G(T) + epsilon)))),phi.l(J,T,Ld)/;
 				
 				);
+						
+			);	
 				
-				PUT /;
+			PUT //;
 				
-				LOOP(J,
+			PUT "transcript variable (phi):"/;
+			PUT "transcript",system.tab,system.tab,system.tab;
 				
-					PUT J.tl;
+			LOOP(T,
 				
-					LOOP(T,
-					
-						PUT phi.l(J,T,Ld,Ld1);
-					
-					);
-					
-					PUT /;
-				
-				);
-				
-				PUT //;
-				
-				PUT "enzyme, protein, and polypeptide variables:"/;
-				PUT "enzyme",system.tab,system.tab,system.tab,system.tab,"Zeta",system.tab,system.tab,"sum(W*B)",system.tab,"B(L1)",system.tab,system.tab,"B(L2)",system.tab,system.tab,"gamma",system.tab,system.tab,"gamma+",system.tab,system.tab,"omega",system.tab,system.tab,"kappa",system.tab,system.tab,"C",system.tab,system.tab,system.tab,"C+",system.tab,system.tab,system.tab,"W"/;
-				
-				LOOP(E,
-				
-					temp = sum(E1, W.l(E1,Ld,Ld1) * B(E,E1));
-					PUT E.tl,Zeta(E),temp,B(E,Ld),B(E,Ld1),gamma.l(E,Ld,Ld1),gamma_plus.l(E,Ld,Ld1),omega.l(E,Ld,Ld1),kappa.l(E,Ld,Ld1),C.l(E,Ld,Ld1),C_plus.l(E,Ld,Ld1),W.l(E,Ld,Ld1)/;
-				
-				);
-				
-				PUT //;
-				
-				/*finally output lists of produced and active proteins*/
-				PUT "Proteins Produced:"/;
-				
-				LOOP(E,
-				
-					IF((C.l(E,Ld,Ld1) ge 1),
-					
-						PUT E.tl,C.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT //;
-				
-				/*finally output lists of produced and active proteins*/
-				PUT "Proteins Expressed:"/;
-				
-				LOOP(E,
-				
-					IF((C_plus.l(E,Ld,Ld1) eq 1),
-					
-						PUT E.tl,C_plus.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT //;
-				
-				/*finally output lists of produced and active proteins*/
-				PUT "Active Proteins:"/;
-				
-				LOOP(E,
-				
-					IF((W.l(E,Ld,Ld1) eq 1),
-					
-						PUT E.tl,W.l(E,Ld,Ld1)/;
-					
-					);
-				
-				);
-				
-				PUT ///;
+				PUT T.tl;
 				
 			);
+				
+			PUT /;
+				
+			LOOP(J,
+				
+				PUT J.tl;
+				
+				LOOP(T,
+					
+					PUT phi.l(J,T,Ld);
+					
+				);
+					
+				PUT /;
+				
+			);
+				
+			PUT //;
+				
+			PUT "enzyme, protein, and polypeptide variables:"/;
+			PUT "enzyme",system.tab,system.tab,system.tab,system.tab,"Zeta",system.tab,system.tab,"sum(W*B)",system.tab,"B(L1)",system.tab,system.tab,"gamma",system.tab,system.tab,"gamma+",system.tab,system.tab,"omega",system.tab,system.tab,"kappa",system.tab,system.tab,"C",system.tab,system.tab,system.tab,"C+",system.tab,system.tab,system.tab,"W"/;
+				
+			LOOP(E,
+				
+				temp = sum(E1, W.l(E1,Ld) * B(E,E1));
+				PUT E.tl,Zeta(E),temp,B(E,Ld),gamma.l(E,Ld),gamma_plus.l(E,Ld),omega.l(E,Ld),kappa.l(E,Ld),C.l(E,Ld),C_plus.l(E,Ld),W.l(E,Ld)/;
+				
+			);
+				
+			PUT //;
+				
+			/*finally output lists of produced and active proteins*/
+			PUT "Proteins Produced:"/;
+				
+			LOOP(E,
+				
+				IF((C.l(E,Ld) ge 1),
+					
+					PUT E.tl,C.l(E,Ld)/;
+					
+				);
+				
+			);
+				
+			PUT //;
+			
+			/*finally output lists of produced and active proteins*/
+			PUT "Proteins Expressed:"/;
+				
+			LOOP(E,
+				
+				IF((C_plus.l(E,Ld) eq 1),
+					
+					PUT E.tl,C_plus.l(E,Ld)/;
+					
+				);
+				
+			);
+				
+			PUT //;
+				
+			/*finally output lists of produced and active proteins*/
+			PUT "Active Proteins:"/;
+				
+			LOOP(E,
+				
+				IF((W.l(E,Ld) eq 1),
+					
+					PUT E.tl,W.l(E,Ld)/;
+					
+				);
+				
+			);
+				
+			PUT ///;
 			
 		);
 		
@@ -1775,7 +1761,7 @@ LOOP(big_set$(not done),
 		PUT 'Ligands',system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,'Enzymes'/;
 
 		/*write the header*/
-		PUT "Ligand 1",system.tab,"Ligand 2",system.tab,system.tab,system.tab;
+		PUT "Ligand 1",system.tab,system.tab,system.tab;
 
 		LOOP(Ed,
 
@@ -1787,23 +1773,19 @@ LOOP(big_set$(not done),
 
 		/*write the logic table lines*/
 		LOOP(Ld,
-			
-			LOOP(Ld1,
-			
+
 				/*write the ligand conditions*/
-				PUT Ld.tl,Ld1.tl;
+				PUT Ld.tl;
 				
 				/*write the desired enzyme response to the system*/
 				LOOP(Ed, 
 				
-					PUT C.l(Ed,Ld,Ld1);
+					PUT C.l(Ed,Ld);
 					
 				);
 				
 				/*finish with a newline*/
 				PUT /;
-			
-			);
 			
 		);
 
@@ -1861,91 +1843,87 @@ LOOP(big_set$(not done),
 			STATES.pw = 32767;
 			
 			LOOP(Ld,
-			
-				LOOP(Ld1,
 				
-					PUT big_set.tl,tau.tl,Ld.tl,Ld1.tl;
+				PUT big_set.tl,tau.tl,Ld.tl;
 				
-					/*write alpha values*/
-					LOOP(P,
+				/*write alpha values*/
+				LOOP(P,
 					
-						PUT alpha.l(P,Ld,Ld1);
-					
-					);
-					
-					/*write alpha_plus values*/
-					LOOP(P,
-					
-						PUT alpha_plus.l(P,Ld,Ld1);
-					
-					);
-
-					/*write phi values*/
-					LOOP(J,
-
-						PUT sum(T, phi.l(J,T,Ld,Ld1));
-
-					);
-					
-					/*write RNA carry-over values*/
-					LOOP(J,
-
-						PUT sum(T, RNATrans(J,T,Ld,Ld1));
-
-					);
-
-					/*write enzyme carry-over values*/
-					LOOP(E,
-
-						PUT ECTrans(E,Ld,Ld1);
-
-					);
-
-					/*write gamma values*/
-					LOOP(E,
-
-						PUT gamma.l(E,Ld,Ld1);
-
-					);
-
-					/*write omega values*/
-					LOOP(E,
-
-						PUT omega.l(E,Ld,Ld1);
-
-					);
-
-					/*write concentration values*/
-					LOOP(E,
-
-						PUT C.l(E,Ld,Ld1);
-
-					);
-
-					/*write C_plus values*/
-					LOOP(E,
-
-						PUT C_plus.l(E,Ld,Ld1);
-
-					);
-
-					/*write kappa values*/
-					LOOP(E,
-
-						PUT kappa.l(E,Ld,Ld1);
-
-					);
-
-					/*write W values*/
-					LOOP(E,
-
-						PUT W.l(E,Ld,Ld1);
-
-					);
-
-					PUT /;
+					PUT alpha.l(P,Ld);
 				
 				);
+					
+				/*write alpha_plus values*/
+				LOOP(P,
+					
+					PUT alpha_plus.l(P,Ld);
+					
+				);
+
+				/*write phi values*/
+				LOOP(J,
+
+					PUT sum(T, phi.l(J,T,Ld));
+
+				);
+					
+				/*write RNA carry-over values*/
+				LOOP(J,
+
+					PUT sum(T, RNATrans(J,T,Ld));
+
+				);
+
+				/*write enzyme carry-over values*/
+				LOOP(E,
+
+					PUT ECTrans(E,Ld);
+
+				);
+
+				/*write gamma values*/
+				LOOP(E,
+
+					PUT gamma.l(E,Ld);
+
+				);
+
+				/*write omega values*/
+				LOOP(E,
+
+					PUT omega.l(E,Ld);
+
+				);
+
+				/*write concentration values*/
+				LOOP(E,
+
+					PUT C.l(E,Ld);
+
+				);
+
+				/*write C_plus values*/
+				LOOP(E,
+				
+					PUT C_plus.l(E,Ld);
+
+				);
+
+				/*write kappa values*/
+				LOOP(E,
+
+					PUT kappa.l(E,Ld);
+
+				);
+
+				/*write W values*/
+				LOOP(E,
+
+					PUT W.l(E,Ld);
+
+				);
+
+				PUT /;
 				
 			);
 			
@@ -1963,7 +1941,7 @@ LOOP(big_set$(not done),
 			PUT 'Ligands',system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,'Enzymes'/;
 
 			/*write the header*/
-			PUT "Ligand 1",system.tab,"Ligand 2",system.tab,system.tab,system.tab;
+			PUT "Ligand 1",system.tab,system.tab,system.tab;
 
 			LOOP(Ed,
 
@@ -1975,23 +1953,19 @@ LOOP(big_set$(not done),
 
 			/*write the logic table lines*/
 			LOOP(Ld,
-
-				LOOP(Ld1,
 				
-					/*write the ligand conditions*/
-					PUT Ld.tl,Ld1.tl;
-					
-					/*write the desired enzyme response to the system*/
-					LOOP(Ed, 
-					
-						PUT W.l(Ed,Ld,Ld1);
-						
-					);
-					
-					/*finish with a newline*/
-					PUT /;
+				/*write the ligand conditions*/
+				PUT Ld.tl;
 				
+				/*write the desired enzyme response to the system*/
+				LOOP(Ed, 
+					
+					PUT W.l(Ed,Ld);
+					
 				);
+				
+				/*finish with a newline*/
+				PUT /;
 				
 			);
 
@@ -2001,7 +1975,7 @@ LOOP(big_set$(not done),
 			PUT 'Ligands',system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,'Transcripts'/;
 
 			/*write the header*/
-			PUT "Ligand 1",system.tab,"Ligand 2",system.tab,system.tab,system.tab;
+			PUT "Ligand 1",system.tab,system.tab,system.tab;
 
 			LOOP(J,
 
@@ -2013,23 +1987,19 @@ LOOP(big_set$(not done),
 
 			/*write the logic table lines*/
 			LOOP(Ld,
-			
-				LOOP(Ld1,
 				
-					/*write the ligand conditions*/
-					PUT Ld.tl,Ld1.tl;
+				/*write the ligand conditions*/
+				PUT Ld.tl;
 					
-					/*write the desired enzyme response to the system*/
-					LOOP(J, 
+				/*write the desired enzyme response to the system*/
+				LOOP(J, 
 					
-						PUT sum(T, RNATrans(J,T,Ld,Ld1));
+					PUT sum(T, RNATrans(J,T,Ld));
 						
-					);
-					
-					/*finish with a newline*/
-					PUT /;
-				
 				);
+					
+				/*finish with a newline*/
+				PUT /;
 				
 			);
 
@@ -2039,7 +2009,7 @@ LOOP(big_set$(not done),
 			PUT 'Ligands',system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,system.tab,'Enzymes'/;
 
 			/*write the header*/
-			PUT "Ligand 1",system.tab,"Ligand 2",system.tab,system.tab,system.tab;
+			PUT "Ligand 1",system.tab,system.tab,system.tab;
 
 			LOOP(Ed,
 
@@ -2051,23 +2021,19 @@ LOOP(big_set$(not done),
 
 			/*write the logic table lines*/
 			LOOP(Ld,
-			
-				LOOP(Ld1,
 				
-					/*write the ligand conditions*/
-					PUT Ld.tl,Ld1.tl;
+				/*write the ligand conditions*/
+				PUT Ld.tl;
 					
-					/*write the desired enzyme response to the system*/
-					LOOP(Ed, 
+				/*write the desired enzyme response to the system*/
+				LOOP(Ed, 
 					
-						PUT ECTrans(Ed,Ld,Ld1);
+					PUT ECTrans(Ed,Ld);
 						
-					);
-					
-					/*finish with a newline*/
-					PUT /;
-				
 				);
+					
+				/*finish with a newline*/
+				PUT /;
 				
 			);
 
@@ -2077,21 +2043,17 @@ LOOP(big_set$(not done),
 			
 			/*use the calculated enzyme production  variable C plus holdover enzyme concentration */
 			/*minus the degradation of enzymed based on enzyme concentration that already exists second term*/
-			ECTrans(E,Ld,Ld1) = (C.l(E,Ld,Ld1) + ECTrans(E,Ld,Ld1)) * (0.5 ** (1 / ((R(E)/2) + epsilon)));
+			ECTrans(E,Ld) = (C.l(E,Ld) + ECTrans(E,Ld)) * (0.5 ** (1 / ((R(E)/2) + epsilon)));
 			
 			/*ensure that if degredation is larger than carry over and production that carry over is set to zero*/
 			LOOP(E,
 			
 				LOOP(Ld,
-				
-					LOOP(Ld1,
 					
-						/*if less than zero reset to zero*/
-						IF((ECTrans(E,Ld,Ld1) < 0),
+					/*if less than zero reset to zero*/
+					IF((ECTrans(E,Ld) < 0),
 						
-							ECTrans(E,Ld,Ld1) = 0;
-							
-						);
+						ECTrans(E,Ld) = 0;
 						
 					);
 					
@@ -2101,23 +2063,19 @@ LOOP(big_set$(not done),
 			
 			/*use the calculated mRNA production variable phi plus holdover transcript level*/
 			/*after having removed a certain amount of it for */
-			RNATrans(J,T,Ld,Ld1) = (phi.l(J,T,Ld,Ld1) + RNATrans(J,T,Ld,Ld1)) * (0.5 ** (1 / (sum(P, M_design(P,J,T) * (G(T)/2)) + epsilon))); 
+			RNATrans(J,T,Ld) = (phi.l(J,T,Ld) + RNATrans(J,T,Ld)) * (0.5 ** (1 / (sum(P, M_design(P,J,T) * (G(T)/2)) + epsilon))); 
 			
 			LOOP(J,
 			
 				LOOP(T,
 			
 					LOOP(Ld,
-					
-						LOOP(Ld1,
 						
-							/*if less than zero reset to zero*/
-							IF((RNATrans(J,T,Ld,Ld1) < 0),
+						/*if less than zero reset to zero*/
+						IF((RNATrans(J,T,Ld) < 0),
 							
-								RNATrans(J,T,Ld,Ld1) = 0;
+							RNATrans(J,T,Ld) = 0;
 								
-							);
-							
 						);
 						
 					);
@@ -2159,10 +2117,10 @@ LOOP(big_set$(not done),
 	pastMs(P,J,T,soln_set(big_set)) = M.l(P,J,T);
 	
 	/*reset the transfer of enzyme concentration for default initial conditions again*/
-	ECTrans(E,Ld,Ld1) = 0;
+	ECTrans(E,Ld) = 0;
 	
 	/*reset the transfer of RNA transcription for default initial conditions again*/
-	RNATrans(J,T,Ld,Ld1) = 0;
+	RNATrans(J,T,Ld) = 0;
 	
 	/*check to see if we have exceeded our arbitrary solution number limit*/
 	IF((num_solns >= max_solns),

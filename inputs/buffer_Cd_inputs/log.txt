@@ -1,0 +1,16 @@
+
+Number of promotors: 20
+Number of transcripts: 5
+Number of terminators: 3
+Number of enzymes: 5
+Number of ligands: 3
+
+row #1 present ligands: Cd 
+enzyme response: GFP 
+condition string: 'Cd'.'GFP' 1
+found 'Cd'
+
+row #2 present ligands: none
+desired to have no enzyme response
+
+max time: 10

@@ -1,0 +1,7 @@
+/
+
+/*Cu ligands present condition*/
+'Cu'.'GFP' 1
+
+/*none ligands present condition*/
+/

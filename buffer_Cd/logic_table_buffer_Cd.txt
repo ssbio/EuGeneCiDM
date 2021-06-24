@@ -1,0 +1,7 @@
+/
+
+/*Cd ligands present condition*/
+'Cd'.'GFP' 1
+
+/*none ligands present condition*/
+/

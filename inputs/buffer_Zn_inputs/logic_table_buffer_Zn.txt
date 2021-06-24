@@ -1,0 +1,7 @@
+/
+
+/*Zn ligands present condition*/
+'Zn'.'GFP' 1
+
+/*none ligands present condition*/
+/

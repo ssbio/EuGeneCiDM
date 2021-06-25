@@ -9,7 +9,7 @@ use strict;
 #Since these files were originally built for human reading, but very difficult
 #when we get into dozens of solutions
 
-my $gate = "Cd_nimply_Cu";
+my $gate = "buffer_Zn";
 
 printf "\nresult for gate: %s\n", $gate;
 

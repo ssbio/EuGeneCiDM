@@ -13,8 +13,8 @@ use Excel::Writer::XLSX;
 
 #inputs of the desired logic gate and solution number
 
-my $gate = "buffer_Cd";
-my $soln_num = 0;
+my $gate = "test_xnor";
+my $soln_num = 4;
 
 #set up to read the information
 open(STATEDATA, 'circuit_state_'.$gate.'.csv') or die "Could not open input file, reason: $!\n";

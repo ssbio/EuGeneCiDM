@@ -9,7 +9,7 @@ use strict;
 #Since these files were originally built for human reading, but very difficult
 #when we get into dozens of solutions
 
-my $gate = "buffer_Zn";
+my $gate = "test_not";
 
 printf "\nresult for gate: %s\n", $gate;
 
@@ -388,7 +388,7 @@ for(my $d = 0; $d <= $#soln_num; $d++) {
 	
 }
 
-$av_soln_time = $av_soln_time / $#soln_num;
+$av_soln_time = $av_soln_time / $total_solns;
 
 my $mode_soln_size = 0;
 

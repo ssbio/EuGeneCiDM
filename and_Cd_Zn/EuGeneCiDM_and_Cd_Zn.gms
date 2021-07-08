@@ -188,8 +188,8 @@ max_solns = 1000;
 ECTrans(E,L1,L2) = 0;
 RNATrans(J,T,L1,L2) = 0;
 
-SCALAR epsilon /1E-4/;
-SCALAR V /1E4/;
+SCALAR epsilon /1E-3/;
+SCALAR V /1E3/;
 
 /*right now no solutions exist*/
 soln_set(big_set) = no;
@@ -606,7 +606,7 @@ attribution_14(E,E1,P,J,T)..		chi(E,E1,P,J,T) =l= V * M(P,J,T);
 attribution_15(E,E1,P,J,T)..		chi(E,E1,P,J,T) =l= sum(E2, abs(I(P,E2)) * nu_prime(E2,E1) * rho(J,E)) + V * (1 - M(P,J,T));
 attribution_16(E,E1,P,J,T)..		chi(E,E1,P,J,T) =g= sum(E2, abs(I(P,E2)) * nu_prime(E2,E1) * rho(J,E)) - V * (1 - M(P,J,T));
 
-*sum the effects to get attribution of e to e1 attribution 
+*sum the effects to get attribution of e to e1 attribution
 attribution_17(E,E1)..				nu(E,E1) =e= D(E,E1) + K(E,E1) + U_prime(E,E1) + X(E,E1);
 attribution_18(E,E1)..				nu(E,E1) =g= nu_prime(E,E1);
 attribution_19(E,E1)..				nu(E,E1) =l= V * nu_prime(E,E1);

@@ -190,8 +190,8 @@ max_solns = 1000;
 ECTrans(E,L1,L2,L3) = 0;
 RNATrans(J,T,L1,L2,L3) = 0;
 
-SCALAR epsilon /1E-4/;
-SCALAR V /1E4/;
+SCALAR epsilon /1E-3/;
+SCALAR V /1E3/;
 
 /*right now no solutions exist*/
 soln_set(big_set) = no;

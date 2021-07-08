@@ -184,8 +184,8 @@ max_solns = 1000;
 ECTrans(E,L1,L2) = 0;
 RNATrans(J,T,L1,L2) = 0;
 
-SCALAR epsilon /1E-4/;
-SCALAR V /1E4/;
+SCALAR epsilon /1E-3/;
+SCALAR V /1E3/;
 
 *limit circuit size
 Np_max = 3;
